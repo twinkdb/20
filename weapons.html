@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>TwinkDB</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/css/bundle.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+
+	<!-- wowhead tooltips -->
+	<script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true, iconSize: 'medium', renameLinks: true};</script>
+	<script src="https://wow.zamimg.com/widgets/power.js"></script>
+	<!-- end wowhead tooltips -->
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <!-- Your header goes here -->
+<div class="header">
+  <div class="header__inner">
+    <a href="/20/home.html" class="logo">TWINKDB</a><!-- /.logo -->
+
+    <div class="nav js-nav">
+      <ul class="no-dropdown">
+        <li>
+          <a href="/20/weapons.html">Weapons</a>
+        </li>
+
+        <li>
+          <a href="/20/armor.html">Armor</a>
+        </li>
+
+        <li>
+          <a href="/20/trinkets.html">Trinkets</a>
+        </li>
+
+        <!-- <li>
+          <a href="/consumables.html">Consumables</a>
+        </li>
+
+        <li>
+          <a href="/gems.html">Gems</a>
+        </li>
+
+        <li>
+          <a href="/enchants.html">Enchants</a>
+        </li> -->
+      </ul>
+    </div><!-- /.nav -->
+  </div><!-- /.header__inner -->
+</div><!-- /.header -->
+
+
+    <div class="main">
+      <div class="container always-visible">
+        <div class="title-with-image">
+          <img src="./assets/images/temp/weapon.png" alt="Weapon">
+
+          <h1>Weapons</h1>
+        </div><!-- /.title-with-image -->
+
+        <hr>
+
+        <div class="js-target-weapons"></div><!-- /.js-target-weapons -->
+
+      </div><!-- /.container -->
+    </div><!-- /.main -->
+
+    <!-- Your footer goes here -->
+
+  </div><!-- /.wrapper -->
+
+  <script class="js-template-weapons" type="text/x-handlebars-template">
+    {{#each this}}
+      <h2>{{this.name}}</h2>
+
+      <div class="table">
+        <table>
+          {{> weaponsTableHead}}
+
+          {{#each this.items}}
+            <tr class="rarity-{{this.rarity}}">
+              <td>
+                <a target="_blank" href="{{this.wowheadURL}}"></a>
+              </td>
+
+              <td>{{setValue this.stats.sockets}}</td>
+
+              <td>{{setValue this.stats.damage}}</td>
+
+              <td>{{setValue this.stats.stamina}}</td>
+
+              <td>{{setValue this.stats.mainStat}}</td>
+
+              <td>{{setValue this.stats.critical}}</td>
+
+              <td>{{setValue this.stats.haste}}</td>
+
+              <td>{{setValue this.stats.mastery}}</td>
+
+              <td>{{setValue this.stats.versatility}}</td>
+
+              <td>{{{setSource this.source}}}</td>
+
+              {{#if this.note}}
+                <td class="table__note" colspan="9">{{this.note}}</td><!-- /.table__note -->
+              {{/if}}
+
+              <td class="table__note-trigger {{#if this.note}} has-note js-note-trigger{{/if}}">
+                <a href="#">
+                  <span>Read<br />More</span>
+
+                  <span>Hide<br />Note</span>
+                </a>
+              </td>
+            </tr>
+          {{/each}}
+        </table>
+      </div><!-- /.table -->
+    {{/each}}
+  </script>
+
+  <script src="assets/vendor/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bundle.js"></script>
+
+</body>
+</html>
