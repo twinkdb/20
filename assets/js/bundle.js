@@ -5510,6 +5510,68 @@ var weapons = [{
     source: 'https://www.wowhead.com/quest=9694',
     rarity: 1,
     note: 'Can proc blue/purple making it a very good option.'
+  }, {
+    name: 'Precisely Calibrated Boomstick',
+    wowheadURL: 'https://www.wowhead.com/item=2100&ilvl=29',
+    stats: {
+      sockets: 0,
+      damage: '11 - 21 (3.00)',
+      stamina: 0,
+      mainStat: 18,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Classic BoE]',
+    rarity: 3
+  }, {
+    name: 'Guttbuster',
+    wowheadURL: 'https://www.wowhead.com/item=13139&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '10 - 20 (3.00)',
+      stamina: 0,
+      mainStat: 12,
+      critical: 7,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Classic BoE]',
+    rarity: 3
+  }, {
+    name: 'Vlaros Corps Rifle',
+    wowheadURL: 'https://www.wowhead.com/item=154411&ilvl=25',
+    stats: {
+      sockets: 1,
+      damage: '14 - 14 (3.00)',
+      stamina: 10,
+      mainStat: 6,
+      critical: 6,
+      haste: 0,
+      mastery: 7,
+      versatility: 0
+    },
+    source: 'https://www.wowhead.com/npc=139145',
+    rarity: 2,
+    note: 'You have 1 chance at this drop.'
+  }, {
+    name: 'Iron Lookout\'s Arbalest',
+    wowheadURL: 'https://www.wowhead.com/item=118713&ilvl=25',
+    stats: {
+      sockets: 0,
+      damage: '11 - 17 (3.00)',
+      stamina: 10,
+      mainStat: 6,
+      critical: 0,
+      haste: 0,
+      mastery: 6,
+      versatility: 6
+    },
+    source: 'https://www.wowhead.com/object=236158',
+    rarity: 1,
+    note: 'Can proc purple.'
   }]
 }, {
   name: 'Caster',
@@ -5812,6 +5874,22 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=17942',
       rarity: 2,
       note: 'Only useful for the 2-piece set bonus. Otherwise Hallowed Pauldrons are better.'
+    }, {
+      name: 'Terrorcloth Mantle',
+      wowheadURL: 'https://www.wowhead.com/item=25925?ilvl=24',
+      stats: {
+        sockets: 2,
+        armor: 4,
+        stamina: 7,
+        mainStat: 4,
+        critical: 1,
+        haste: 0,
+        mastery: 0,
+        versatility: 6
+      },
+      source: 'https://www.wowhead.com/quest=9902',
+      rarity: 1,
+      note: 'Can proc blue/purple. Slightly inferior to Hallowed but way easier to get.'
     }]
   }, {
     name: 'Chest',
@@ -7094,6 +7172,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=11487',
       rarity: 1
+    }, {
+      name: 'Cloak of Hidden Flasks',
+      wowheadURL: 'https://www.wowhead.com/item=144121?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 4,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 0,
+        mastery: 4,
+        versatility: 3
+      },
+      source: 'https://www.wowhead.com/npc=56717',
+      rarity: 2,
+      note: 'The proc counts as battle & guardian elixir making it unusable with ALchemist\'s flask.'
     }]
   }, {
     name: 'Finger',
