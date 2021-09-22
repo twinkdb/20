@@ -514,6 +514,14 @@ blockquote:last-child {
   -webkit-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
+  /* Tablet-portrait */
+}
+@media (max-width: 1023px) {
+  .container {
+    opacity: 1;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
 }
 .container:hover {
   opacity: 1;
@@ -591,10 +599,56 @@ blockquote:last-child {
           align-items: center;
   margin: 0 auto;
   padding: 15px 30px;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .header .header__inner {
+    padding: 10px 15px;
+  }
+}
+.header .nav__open {
+  -webkit-transform: translateY(4px);
+      -ms-transform: translateY(4px);
+          transform: translateY(4px);
 }
 /* ------------------------------------------------------------ *\
 	Icons
 \* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ *\
+  legend
+\* ------------------------------------------------------------ */
+.legend {
+  border: solid 1px #484848;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.legend h4 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.legend span {
+  display: block;
+}
+.legend span[class^=rarity-]::before {
+  content: "";
+  width: 10px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.legend span.rarity-1::before {
+  background-color: limegreen;
+}
+.legend span.rarity-2::before {
+  background-color: yellow;
+}
+.legend span.rarity-3::before {
+  background-color: orange;
+}
+.legend span.rarity-4::before {
+  background-color: red;
+}
 /* ------------------------------------------------------------ *\
 	Logo
 \* ------------------------------------------------------------ */
@@ -606,6 +660,12 @@ blockquote:last-child {
   -webkit-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .logo {
+    font-size: 24px;
+  }
 }
 .logo:hover {
   opacity: 0.8;
@@ -618,6 +678,12 @@ blockquote:last-child {
   margin: 0 auto;
   padding: 40px 15px;
   overflow: hidden;
+  /* Mobile */
+}
+@media (max-width: 1023px) {
+  .main {
+    max-width: 100%;
+  }
 }
 .main .main__head {
   text-align: center;
@@ -627,6 +693,16 @@ blockquote:last-child {
   display: -ms-flexbox;
   display: flex;
   margin: 0 -15px;
+  /* Mobile */
+}
+@media (max-width: 1023px) {
+  .main .main__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 0;
+  }
 }
 .main .main__aside {
   -webkit-box-flex: 0;
@@ -634,6 +710,16 @@ blockquote:last-child {
           flex: 0 0 33.33%;
   max-width: 33.33%;
   padding: 0 15px;
+  /* Mobile */
+}
+@media (max-width: 1023px) {
+  .main .main__aside {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    max-width: 100%;
+    padding: 0;
+  }
 }
 .main .main__content {
   -webkit-box-flex: 0;
@@ -641,6 +727,16 @@ blockquote:last-child {
           flex: 0 0 66.66%;
   max-width: 66.66%;
   padding: 0 15px;
+  /* Mobile */
+}
+@media (max-width: 1023px) {
+  .main .main__content {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    max-width: 100%;
+    padding: 0;
+  }
 }
 /* ------------------------------------------------------------ *\
 	Nav
@@ -651,6 +747,32 @@ blockquote:last-child {
   font-size: 18px;
   letter-spacing: 0.02em;
   color: #bbb;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .nav {
+    width: 90%;
+    height: 100%;
+    background-color: #484848;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    padding: 25px 15px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+}
+.nav.is-active {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
 }
 .nav ul {
   list-style: none;
@@ -665,6 +787,15 @@ blockquote:last-child {
           align-items: center;
   margin: 0 -20px;
   line-height: 1;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .nav ul.no-dropdown {
+    display: block;
+    margin: 0;
+    line-height: 2.4;
+    text-align: center;
+  }
 }
 .nav ul.nav__level-1 {
   display: -webkit-box;
@@ -706,6 +837,12 @@ blockquote:last-child {
 .nav li {
   position: relative;
   padding: 0 20px;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .nav li {
+    color: #fff;
+  }
 }
 .nav li:hover > a, .nav li:hover > span {
   color: #fff;
@@ -724,6 +861,36 @@ blockquote:last-child {
 }
 .nav a:focus {
   color: #fff;
+}
+.nav .nav__close {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.nav .nav__close::before, .nav .nav__close::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+}
+.nav .nav__close::before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.nav .nav__close::after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 /* ------------------------------------------------------------ *\
   note
@@ -763,6 +930,12 @@ blockquote:last-child {
   margin-bottom: 20px;
   font-size: 14px;
   text-align: center;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .table {
+    overflow: auto;
+  }
 }
 .table th,
 .table td {
@@ -782,6 +955,12 @@ blockquote:last-child {
 .table td a {
   font-weight: 400;
   text-decoration: none;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .table td a {
+    white-space: nowrap;
+  }
 }
 .table td:first-child {
   text-align: left;
@@ -854,12 +1033,15 @@ blockquote:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 .tabs .tabs__nav li {
   margin-right: 2px;
+  margin-bottom: 2px;
 }
 .tabs .tabs__nav a {
   background-color: #484848;

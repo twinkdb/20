@@ -5320,6 +5320,21 @@ var weapons = [{
     source: 'https://www.wowhead.com/object=220641/thunderlord-cache',
     rarity: 1,
     note: 'You only get 1 chance at this drop. Can proc purple.'
+  }, {
+    name: 'Gnarled Ash Staff',
+    wowheadURL: 'https://www.wowhead.com/item=791?ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '15 - 21',
+      stamina: 5,
+      mainStat: 7,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 17
+    },
+    source: 'https://www.wowhead.com/npc=75590',
+    rarity: 3
   }]
 }, {
   name: '1H melee',
@@ -5600,6 +5615,20 @@ var weapons = [{
     source: 'https://www.wowhead.com/quest=12948',
     rarity: 1,
     note: 'Can proc purple but the stats remain the same.'
+  }, {
+    name: 'Soulkeeper',
+    wowheadURL: 'https://www.wowhead.com/item=1607?ilvl=27',
+    stats: {
+      sockets: 0,
+      stamina: 10,
+      mainStat: 31,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 16
+    },
+    source: '[Classic BoE]',
+    rarity: 3
   }]
 }, {
   name: 'Offhand',
@@ -5747,7 +5776,7 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/spell=127121',
       rarity: 2,
-      note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519"></a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413"></a>'
+      note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
     }]
   }, {
     name: 'Shoulders',
@@ -6098,7 +6127,7 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/spell=127118',
       rarity: 2,
-      note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519"></a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413"></a>'
+      note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
     }]
   }, {
     name: 'Shoulders',
@@ -6413,7 +6442,7 @@ var armor = [{
         versatility: 0
       },
       source: 'https://www.wowhead.com/spell=127121',
-      note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519"></a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413"></a>',
+      note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>',
       rarity: 2
     }, {
       name: 'Deadly Retinal Armor',
@@ -6623,7 +6652,7 @@ var armor = [{
         versatility: 0
       },
       source: '[Pandaria BoE]',
-      rarity: 2,
+      rarity: 3,
       note: 'Tooltip is wrong. Requires a lvl 22 character to farm. Best spot to farm is goats in Vallet of Four Winds.'
     }, {
       name: 'Hope Bearer Helm',
@@ -6655,6 +6684,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=6907',
       rarity: 1
+    }, {
+      name: 'Reinforced Retinal Armor',
+      wowheadURL: 'https://www.wowhead.com/item=77539?ilvl=19',
+      stats: {
+        sockets: 'Meta + 2 cogs',
+        armor: 12,
+        stamina: 6,
+        mainStat: 5,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/spell=127123',
+      rarity: 2,
+      note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
     }]
   }, {
     name: 'Shoulders',
@@ -6873,7 +6918,7 @@ var armor = [{
       rarity: 1
     }, {
       name: 'Sabatons of Erekem',
-      wowheadURL: 'https://www.wowhead.com/item=28176?ilvl=25',
+      wowheadURL: 'https://www.wowhead.com/item=43405?ilvl=25',
       stats: {
         sockets: 1,
         armor: 14,
@@ -6884,7 +6929,7 @@ var armor = [{
         mastery: 0,
         versatility: 10
       },
-      source: 'https://www.wowhead.com/quest=29644',
+      source: 'https://www.wowhead.com/npc=29315',
       rarity: 1
     }, {
       name: 'The Obliterator Greaves',
@@ -6984,6 +7029,21 @@ var armor = [{
         versatility: 7
       },
       source: 'https://www.wowhead.com/npc=12201',
+      rarity: 1
+    }, {
+      name: 'Necklace of the Deep',
+      wowheadURL: 'https://www.wowhead.com/item=32508?ilvl=19',
+      stats: {
+        sockets: 2,
+        armor: 0,
+        stamina: 3,
+        mainStat: 3,
+        critical: 1,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/spell=40514',
       rarity: 1
     }]
   }, {
@@ -7191,6 +7251,21 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=132179',
       rarity: 1,
       note: 'You get only 1 chance on this drop.'
+    }, {
+      name: 'Shadowmight Ring',
+      wowheadURL: 'https://www.wowhead.com/item=43249?ilvl=19',
+      stats: {
+        sockets: 2,
+        armor: 0,
+        stamina: 1,
+        mainStat: 0,
+        critical: 2,
+        haste: 6,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/spell=58146',
+      rarity: 1
     }]
   }]
 }];
@@ -7201,6 +7276,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=74034',
     note: '13 stamina + mastery proc.',
     source: 'https://www.wowhead.com/object=209620'
+  }, {
+    name: 'Greka\'s Dentures',
+    wowheadURL: 'https://www.wowhead.com/item=113408?ilvl=25',
+    note: '9 haste + str on proc',
+    source: 'https://www.wowhead.com/object=232588'
   }, {
     name: 'External Combustion Engine',
     wowheadURL: 'https://www.wowhead.com/item=113025?ilvl=24',
@@ -7256,6 +7336,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=113160?ilvl=24',
     note: '6 int + int on proc',
     source: 'https://www.wowhead.com/quest=34847'
+  }, {
+    name: 'Bajheric Bangle',
+    wowheadURL: 'https://www.wowhead.com/item=118881?ilvl=26',
+    note: '5 crit + str on proc',
+    source: '[Draenor BoE]'
   }]
 }, {
   name: 'On use',
@@ -7279,6 +7364,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=109997?ilvl=25',
     note: '4 int + mastery on use',
     source: 'https://www.wowhead.com/npc=79852'
+  }, {
+    name: 'Hargal\'s Favorite Trinket',
+    wowheadURL: 'https://www.wowhead.com/item=140161?ilvl=27',
+    note: 'Bladestorm <span class="q6">(WARRIOR ONLY)</span>',
+    source: 'https://www.wowhead.com/item=141069'
   }]
 }, {
   name: 'Other',
@@ -7312,11 +7402,6 @@ var trinkets = [{
     note: 'Str on use',
     source: '[Draenor BoE]'
   }, {
-    name: '\'Bygone Bee\' Almanac',
-    wowheadURL: 'https://www.wowhead.com/item=163936?ilvl=28',
-    note: '7 str + mastery proc. This has the potential to be VERY strong (if it exists).',
-    source: '[Zandalar/Kul Tiras BoE]'
-  }, {
     name: 'Gerp\'s Perfect Arrow',
     wowheadURL: 'https://www.wowhead.com/item=87495?ilvl=28',
     note: '10 crit + agi on use',
@@ -7348,6 +7433,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_HandlebarsHelper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/HandlebarsHelper */ "../src/assets/js/modules/HandlebarsHelper.js");
 /* harmony import */ var _modules_TableHelper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/TableHelper */ "../src/assets/js/modules/TableHelper.js");
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tabs */ "../src/assets/js/modules/tabs.js");
+/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/nav */ "../src/assets/js/modules/nav.js");
+/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_nav__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -7424,7 +7512,7 @@ var HandlebarsHelper = function () {
           return "<a href=\"".concat(value, "\" data-wh-rename-link=\"false\">Quest</a>");
         }
 
-        return "<a href=\"".concat(value, "\"></a>");
+        return "<a href=\"".concat(value, "\">Drop</a>");
       });
       Handlebars.registerHelper('isFirst', function (index) {
         return index === 0;
@@ -7516,6 +7604,44 @@ var TableHelper = function () {
 }();
 
 
+
+/***/ }),
+
+/***/ "../src/assets/js/modules/nav.js":
+/*!***************************************!*\
+  !*** ../src/assets/js/modules/nav.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _createForOfIteratorHelper(o) { if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) { var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var it, normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+var initNav = function initNav() {
+  var nav = document.querySelector('.js-nav');
+  var triggers = document.querySelectorAll('.js-nav-trigger');
+
+  var _iterator = _createForOfIteratorHelper(triggers),
+      _step;
+
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var trigger = _step.value;
+      trigger.addEventListener('click', function (event) {
+        nav.classList.toggle('is-active');
+      });
+    }
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
+};
+
+initNav();
 
 /***/ }),
 

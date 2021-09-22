@@ -18,7 +18,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
 
 	<!-- wowhead tooltips -->
-	<script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true, iconSize: 'medium', renameLinks: true};</script>
+	<script>const whTooltips = {colorLinks: true, iconizeLinks: true, iconSize: 'medium', renameLinks: true};</script>
 	<script src="https://wow.zamimg.com/widgets/power.js"></script>
 	<!-- end wowhead tooltips -->
 </head>
@@ -57,7 +57,17 @@
           <a href="/enchants.html">Enchants</a>
         </li> -->
       </ul>
+
+      <div class="nav__close js-nav-trigger visible-sm-block visible-xs-block"></div><!-- /.nav__close visible-sm-block visible-xs-block -->
     </div><!-- /.nav -->
+
+    <div class="nav__open js-nav-trigger visible-sm-block visible-xs-block">
+      <svg viewBox="0 0 30 22" width="30" height="15" fill="#fff">
+        <rect width="30" height="2" rx="3"></rect>
+        <rect y="8" width="30" height="2" rx="3"></rect>
+        <rect y="16" width="30" height="2" rx="3"></rect>
+      </svg>
+    </div><!-- /.nav__open visible-sm-block visible-xs-block -->
   </div><!-- /.header__inner -->
 </div><!-- /.header -->
 
@@ -71,6 +81,18 @@
         </div><!-- /.title-with-image -->
 
         <hr>
+
+        <div class="legend">
+          <h4>Rarity legend:</h4>
+
+          <span class="rarity-1">Common. (Dungeon drops, quest rewards, craftables etc.)</span><!-- /.rarity-1 -->
+
+          <span class="rarity-2">Requires some time. (BFA socketed dungeon drops, Epoch Hunter drops etc.)</span><!-- /.rarity-2 -->
+
+          <span class="rarity-3">Rare. (Very rare items that require a lot of grinding. BoEs for example.)</span><!-- /.rarity-3 -->
+
+          <span class="rarity-4">Non existant/GF'd.</span><!-- /.rarity-4 -->
+        </div><!-- /.legend -->
 
         <div class="js-target-armor"></div><!-- /.js-target-armor -->
 
