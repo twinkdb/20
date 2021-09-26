@@ -923,6 +923,72 @@ blockquote:last-child {
   max-width: none;
 }
 /* ------------------------------------------------------------ *\
+  spoiler
+\* ------------------------------------------------------------ */
+.spoiler {
+  padding: 10px 15px;
+  border: solid 2px #000;
+  border-radius: 6px;
+  background: #111;
+  position: relative;
+}
+.spoiler::after {
+  content: "...";
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  font-size: 30px;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+}
+.spoiler + .spoiler {
+  margin-top: 15px;
+}
+.spoiler.is-active::after {
+  content: "";
+}
+.spoiler.is-active .spoiler__title a::after {
+  -webkit-transform: translateY(-3px) rotate(180deg);
+      -ms-transform: translateY(-3px) rotate(180deg);
+          transform: translateY(-3px) rotate(180deg);
+}
+.spoiler a[href*=wowhead] {
+  text-decoration: none;
+}
+.spoiler ul {
+  padding-left: 20px;
+}
+.spoiler li > ul {
+  margin-bottom: 10px;
+}
+.spoiler .spoiler__title {
+  border-bottom: 1px solid #484848;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.spoiler .spoiler__title a {
+  display: block;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+.spoiler .spoiler__title a::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 7px;
+  border-top-color: currentColor;
+  -webkit-transform: translateY(4px);
+      -ms-transform: translateY(4px);
+          transform: translateY(4px);
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  display: inline-block;
+  margin-left: 5px;
+}
+/* ------------------------------------------------------------ *\
   table
 \* ------------------------------------------------------------ */
 .table {

@@ -123,7 +123,7 @@
 
               <td>{{setValue this.stats.stamina}}</td>
 
-              <td>{{setValue this.stats.mainStat}}</td>
+              <td>{{{setValue this.stats.mainStat}}}</td>
 
               <td>{{setValue this.stats.critical}}</td>
 
@@ -140,7 +140,7 @@
               {{/if}}
 
               <td class="table__note-trigger {{#if this.note}} has-note js-note-trigger{{/if}}">
-                <a href="#">
+                <a href="{{#if this.note}}#{{else}}javascript:void(0);{{/if}}">
                   <span>Read<br />More</span>
 
                   <span>Hide<br />Note</span>
