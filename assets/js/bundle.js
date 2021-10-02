@@ -5490,6 +5490,21 @@ var weapons = [{
     source: 'https://www.wowhead.com/npc=74434|Amnennar the Coldbringer@Razorfen Downs',
     rarity: 1,
     note: 'The slow doesn\'t proc on 20. The dmg does.'
+  }, {
+    name: 'Ced\'s Carver',
+    wowheadURL: 'https://www.wowhead.com/item=31305&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '5 - 9',
+      stamina: 3,
+      mainStat: 3,
+      critical: 5,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Outland BoE]',
+    rarity: 3
   }]
 }, {
   name: 'Ranged',
@@ -5754,6 +5769,53 @@ var weapons = [{
     source: 'https://www.wowhead.com/npc=517|Murloc Oracle@Westfall',
     rarity: 3,
     note: 'Can proc blue/purple making it a good option.'
+  }, {
+    name: 'Staff of Divine Infusion',
+    wowheadURL: 'https://www.wowhead.com/item=31289&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '7 - 10',
+      stamina: 10,
+      mainStat: 31,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 16
+    },
+    source: '[Outland BoE]',
+    rarity: 3,
+    note: 'Works well if you find it cheap or loot it while doing other stuff. Not worth farming.'
+  }, {
+    name: 'Tethis\' Skull',
+    wowheadURL: 'https://www.wowhead.com/item=61110&ilvl=24',
+    stats: {
+      sockets: 0,
+      damage: '4 - 5',
+      stamina: 4,
+      mainStat: 17,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 9
+    },
+    source: 'https://www.wowhead.com/quest=197|Northern Stranglethorn',
+    rarity: 1,
+    note: 'Can proc blue/purple making it very close to Essence Focuser.'
+  }, {
+    name: 'Squirgle\'s Deepstone Wand',
+    wowheadURL: 'https://www.wowhead.com/item=155551&ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      damage: '2 - 4',
+      stamina: 5,
+      mainStat: 19,
+      critical: 4,
+      haste: 0,
+      mastery: 0,
+      versatility: 2
+    },
+    source: 'https://www.wowhead.com/npc=139135|Squirgle of the Depths@Tiragarde Sound',
+    rarity: 1
   }]
 }, {
   name: 'Offhand',
@@ -5849,6 +5911,37 @@ var weapons = [{
     source: 'https://www.wowhead.com/quest=11968@Borean Tundra',
     rarity: 1,
     note: 'Can proc blue/purple making it a very good option.'
+  }, {
+    name: 'Cloud Stone',
+    wowheadURL: 'https://www.wowhead.com/item=17737?ilvl=25',
+    stats: {
+      sockets: 0,
+      armor: 0,
+      stamina: 5,
+      mainStat: 10,
+      critical: 0,
+      haste: 2,
+      mastery: 0,
+      versatility: 5
+    },
+    source: 'https://www.wowhead.com/npc=12203|Landslide@Maraudon',
+    rarity: 1,
+    note: 'Very good budget option if you\'re going for Blade of Eternal Darkness too.'
+  }, {
+    name: 'Orb of Mistmantle',
+    wowheadURL: 'https://www.wowhead.com/item=13031?ilvl=27',
+    stats: {
+      sockets: 0,
+      armor: 0,
+      stamina: 5,
+      mainStat: 11,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 7
+    },
+    source: '[Classic BoE]',
+    rarity: 3
   }]
 }];
 var armor = [{
@@ -6466,6 +6559,21 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=17991|Rokmar the Crackler@The Slave Pens',
       rarity: 1
+    }, {
+      name: 'Highlander\'s Lizardhide Girdle',
+      wowheadURL: 'https://www.wowhead.com/item=20104?ilvl=23',
+      stats: {
+        sockets: 0,
+        armor: 5,
+        stamina: 6,
+        mainStat: 7,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 11
+      },
+      source: 'https://www.wowhead.com/npc=15127|Vendor@Arathi Highlands',
+      rarity: 1
     }]
   }, {
     name: 'Legs',
@@ -6646,7 +6754,7 @@ var armor = [{
         armor: 14,
         stamina: 10,
         mainStat: 6,
-        critical: 7,
+        critical: 6,
         haste: 7,
         mastery: 0,
         versatility: 0
@@ -6857,6 +6965,22 @@ var armor = [{
       source: 'https://www.wowhead.com/spell=127123',
       rarity: 2,
       note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
+    }, {
+      name: 'Helmet of the Constructor',
+      wowheadURL: 'https://www.wowhead.com/item=37182?ilvl=25',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 16,
+        stamina: 10,
+        mainStat: 6,
+        critical: 8,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=24200|Skarvald the Constructor@Utgarde Keep',
+      rarity: 1,
+      note: 'A budget alternative to Davidian if you need a meta socket.'
     }]
   }, {
     name: 'Shoulders',
@@ -7264,10 +7388,58 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=102446|Fel Lord Betrug@Violet Hold',
       rarity: 2
+    }, {
+      name: 'The Blood-Thane\'s Amulet',
+      wowheadURL: 'https://www.wowhead.com/item=129329?ilvl=24',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 0,
+        haste: 7,
+        mastery: 14,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=42641@Stormheim',
+      rarity: 1,
+      note: 'Can proc blue/purple.'
+    }, {
+      name: 'Medallion of Morashu',
+      wowheadURL: 'https://www.wowhead.com/item=141647?ilvl=24',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 8,
+        haste: 0,
+        mastery: 15,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=39178@Highmountain',
+      rarity: 1,
+      note: 'Can proc blue/purple.'
     }]
   }, {
     name: 'Back',
     items: [{
+      name: 'Parrotfeather Cloak',
+      wowheadURL: 'https://www.wowhead.com/item=155884?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 4,
+        stamina: 5,
+        mainStat: 4,
+        critical: 4,
+        haste: 0,
+        mastery: 3,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=126832|Skycap\'n Kragg@Freehold',
+      rarity: 2,
+      note: ''
+    }, {
       name: 'Drape of the Loyal Vassal',
       wowheadURL: 'https://www.wowhead.com/item=158375?ilvl=25',
       stats: {
@@ -7329,6 +7501,22 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=56717|Hoptallus@Stormstout Brewery',
       rarity: 2,
       note: 'The proc counts as battle & guardian elixir making it unusable with ALchemist\'s flask.'
+    }, {
+      name: 'Felblood-Starched Cloak',
+      wowheadURL: 'https://www.wowhead.com/item=113150?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 3,
+        mastery: 0,
+        versatility: 4
+      },
+      source: 'https://www.wowhead.com/quest=33116|Frostfire Ridge',
+      rarity: 1,
+      note: 'Can proc purple.'
     }]
   }, {
     name: 'Finger',
@@ -7501,6 +7689,86 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/spell=58146',
       rarity: 1
+    }, {
+      name: 'Penny\'s Friendship Ring',
+      wowheadURL: 'https://www.wowhead.com/item=160087?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 12,
+        versatility: 10
+      },
+      source: 'https://www.wowhead.com/quest=50005@Tiragarde Sound',
+      rarity: 1,
+      note: 'Can proc blue/purple.'
+    }, {
+      name: 'Swiftfeather Band',
+      wowheadURL: 'https://www.wowhead.com/item=130021?ilvl=24',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 0,
+        haste: 14,
+        mastery: 7,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=38225@Val\'Sharah',
+      rarity: 1,
+      note: 'Can proc blue/purple.'
+    }, {
+      name: 'Band of Demonic Guile',
+      wowheadURL: 'https://www.wowhead.com/item=129172?ilvl=24',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 7,
+        haste: 0,
+        mastery: 14,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=37660@Azsuna',
+      rarity: 1,
+      note: 'Can proc blue/purple.'
+    }, {
+      name: 'Demar\'s Band of Amore',
+      wowheadURL: 'https://www.wowhead.com/item=141581?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 25,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
+    }, {
+      name: 'Soul of the Sea',
+      wowheadURL: 'https://www.wowhead.com/item=160261?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 10,
+        versatility: 12
+      },
+      source: 'https://www.wowhead.com/quest=49409@Tiragarde Sound',
+      rarity: 1,
+      note: 'Can proc blue/purple.'
     }]
   }]
 }];
@@ -7566,6 +7834,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=113160?ilvl=24',
     note: '6 int + int on proc',
     source: 'https://www.wowhead.com/quest=34847@Shadowmoon Valley'
+  }, {
+    name: 'Zugdug\'s Piece of Paradise',
+    wowheadURL: 'https://www.wowhead.com/item=131799?ilvl=25',
+    note: '6 str + mastery on proc',
+    source: 'https://www.wowhead.com/npc=98299|Bodash the Hoarder@Highmountain'
   }]
 }, {
   name: 'On use',
