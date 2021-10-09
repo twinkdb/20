@@ -5383,6 +5383,22 @@ var weapons = [{
     source: 'https://www.wowhead.com/npc=122963|Rezan@Atal\'Dazar',
     rarity: 2
   }, {
+    name: 'Rugged Crystal Cudgel',
+    wowheadURL: 'https://www.wowhead.com/item=119400&ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      damage: '8 - 10',
+      stamina: 5,
+      mainStat: 3,
+      critical: 0,
+      haste: 0,
+      mastery: 4,
+      versatility: 3
+    },
+    source: 'https://www.wowhead.com/npc=85568|Avalanche@Shadowmoon Valley',
+    rarity: 2,
+    note: 'Socket proc chance is ~5%. Drops loot once a day.'
+  }, {
     name: 'The Bladefist',
     wowheadURL: 'https://www.wowhead.com/item=29348&ilvl=25',
     stats: {
@@ -5754,6 +5770,38 @@ var weapons = [{
     rarity: 1,
     note: 'You get only 1 chance at this drop.'
   }, {
+    name: 'Shadowspeaker\'s Shard',
+    wowheadURL: 'https://www.wowhead.com/item=119396&ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      damage: '2 - 4',
+      stamina: 5,
+      mainStat: 19,
+      critical: 4,
+      haste: 0,
+      mastery: 0,
+      versatility: 3
+    },
+    source: 'https://www.wowhead.com/npc=85029|Shadowspeaker Niir@Shadowmoon Valley',
+    rarity: 2,
+    note: 'Socket proc chance is ~5%. Drops loot once a day.'
+  }, {
+    name: 'Cudgel of the Son of Goramal',
+    wowheadURL: 'https://www.wowhead.com/item=119399&ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      damage: '4 - 5',
+      stamina: 5,
+      mainStat: 19,
+      critical: 3,
+      haste: 0,
+      mastery: 0,
+      versatility: 3
+    },
+    source: 'https://www.wowhead.com/npc=82620|Son of Goramal@Frostfire Ridge',
+    rarity: 2,
+    note: 'Socket proc chance is ~5%. Drops loot once a day.'
+  }, {
     name: 'Foamspittle Staff',
     wowheadURL: 'https://www.wowhead.com/item=1405&ilvl=24',
     stats: {
@@ -5826,7 +5874,7 @@ var weapons = [{
       sockets: '1 (proc)',
       armor: 0,
       stamina: 5,
-      mainStat: 10,
+      mainStat: '3 str<br>10 int',
       critical: 0,
       haste: 3,
       mastery: 4,
@@ -5840,16 +5888,64 @@ var weapons = [{
     stats: {
       sockets: '1 (proc)',
       armor: 64,
-      stamina: 10,
-      mainStat: '3 str<br>5int',
+      stamina: 5,
+      mainStat: '3 str<br>10 int',
       critical: 0,
       haste: 2,
-      mastery: 0,
-      versatility: 4
+      mastery: 4,
+      versatility: 0
     },
     source: 'https://www.wowhead.com/npc=131520|Kulett the Ornery@Tiragarde Sound',
     rarity: 1,
     note: 'You get only 1 chance at this drop.'
+  }, {
+    name: 'Etched Osteoderm Shield',
+    wowheadURL: 'https://www.wowhead.com/item=119391?ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      armor: 64,
+      stamina: 5,
+      mainStat: '3 str<br>10 int',
+      critical: 4,
+      haste: 0,
+      mastery: 0,
+      versatility: 3
+    },
+    source: 'https://www.wowhead.com/npc=88586|Mogamago@Gorgrond',
+    rarity: 2,
+    note: 'Socket proc chance is ~5%. Drops loot once a day.'
+  }, {
+    name: 'Rockworm Carapace Shield',
+    wowheadURL: 'https://www.wowhead.com/item=119390?ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      armor: 64,
+      stamina: 5,
+      mainStat: '3 str<br>10 int',
+      critical: 3,
+      haste: 0,
+      mastery: 0,
+      versatility: 4
+    },
+    source: 'https://www.wowhead.com/npc=82616|Jabberjaw@Frostfire Ridge',
+    rarity: 2,
+    note: 'Socket proc chance is ~5%. Drops loot once a day.'
+  }, {
+    name: 'Tor\'goroth\'s Soul Prism',
+    wowheadURL: 'https://www.wowhead.com/item=119379?ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      armor: 0,
+      stamina: 5,
+      mainStat: 10,
+      critical: 3,
+      haste: 0,
+      mastery: 3,
+      versatility: 0
+    },
+    source: 'https://www.wowhead.com/npc=82618|Tor\'goroth@Frostfire Ridge',
+    rarity: 2,
+    note: 'Socket proc chance is ~5%. Drops loot once a day.'
   }, {
     name: 'Aureus Vessel',
     wowheadURL: 'https://www.wowhead.com/item=158322&ilvl=25',
@@ -6341,6 +6437,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=18373|Exarch Maladaar@Auchenai Crypts',
       rarity: 1
+    }, {
+      name: 'Ro\'gor\'s Slippers of Silence',
+      wowheadURL: 'https://www.wowhead.com/item=119228?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 4,
+        stamina: 7,
+        mainStat: 5,
+        critical: 0,
+        haste: 0,
+        mastery: 5,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/npc=86579|Blademaster Ro\'gor@Gorgrond',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
     }]
   }]
 }, {
@@ -6508,6 +6620,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/quest=29641@Shadow Labyrinth',
       rarity: 1
+    }, {
+      name: 'Ogom\'s Manacles',
+      wowheadURL: 'https://www.wowhead.com/item=119366?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 5,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 0,
+        mastery: 4,
+        versatility: 3
+      },
+      source: 'https://www.wowhead.com/npc=87622|Ogom the Mangler@Frostfire Ridge',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
     }]
   }, {
     name: 'Hands',
@@ -6640,6 +6768,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=29306|Gal\'darah@Gundrak',
       rarity: 1
+    }, {
+      name: 'Temptessa\'s Knee-High Boots',
+      wowheadURL: 'https://www.wowhead.com/item=119360?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 6,
+        stamina: 7,
+        mainStat: 5,
+        critical: 5,
+        haste: 0,
+        mastery: 5,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=85121|Lady Temptessa@Shadowmoon Valley',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
     }]
   }]
 }, {
@@ -7266,6 +7410,21 @@ var armor = [{
   slots: [{
     name: 'Neck',
     items: [{
+      name: 'Necklace of the Deep',
+      wowheadURL: 'https://www.wowhead.com/item=32508?ilvl=19',
+      stats: {
+        sockets: 2,
+        armor: 0,
+        stamina: 3,
+        mainStat: 3,
+        critical: 1,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/spell=40514',
+      rarity: 1
+    }, {
       name: 'Choker of Betrayal',
       wowheadURL: 'https://www.wowhead.com/item=39653?ilvl=25',
       stats: {
@@ -7314,6 +7473,54 @@ var armor = [{
       rarity: 1,
       note: 'Can proc purple.'
     }, {
+      name: 'Unpopped Pustule Pendant',
+      wowheadURL: 'https://www.wowhead.com/item=119230?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 4,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/npc=86562|Maniacal Madgard@Gorgrond',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day. The rare is very hard to solo at 20.'
+    }, {
+      name: 'Three-Egg Pendant Necklace',
+      wowheadURL: 'https://www.wowhead.com/item=119376?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 5,
+        mainStat: 4,
+        critical: 5,
+        haste: 0,
+        mastery: 0,
+        versatility: 4
+      },
+      source: 'https://www.wowhead.com/npc=87351|Mother of Goren@Frostfire Ridge',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
+    }, {
+      name: 'Void-Touched Diamond Necklace',
+      wowheadURL: 'https://www.wowhead.com/item=119377?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 4,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/npc=84911|Demidos@Shadowmoon Valley',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
+    }, {
       name: 'Armsmaster\'s Sealed Locket',
       wowheadURL: 'https://www.wowhead.com/item=88273?ilvl=25',
       stats: {
@@ -7342,21 +7549,6 @@ var armor = [{
         versatility: 7
       },
       source: 'https://www.wowhead.com/npc=12201|Princess Theradras@Maraudon',
-      rarity: 1
-    }, {
-      name: 'Necklace of the Deep',
-      wowheadURL: 'https://www.wowhead.com/item=32508?ilvl=19',
-      stats: {
-        sockets: 2,
-        armor: 0,
-        stamina: 3,
-        mainStat: 3,
-        critical: 1,
-        haste: 0,
-        mastery: 0,
-        versatility: 0
-      },
-      source: 'https://www.wowhead.com/spell=40514',
       rarity: 1
     }, {
       name: 'Raven Filigree Pendant',
@@ -7471,52 +7663,37 @@ var armor = [{
       rarity: 1,
       note: 'You only get one chance to obtain this.'
     }, {
-      name: 'Amplifying Cloak',
-      wowheadURL: 'https://www.wowhead.com/item=18350?ilvl=25',
+      name: 'Yal\'s Leafwrap Cloak',
+      wowheadURL: 'https://www.wowhead.com/item=119414?ilvl=25',
       stats: {
-        sockets: 0,
+        sockets: '1 (proc)',
         armor: 4,
         stamina: 5,
         mainStat: 4,
         critical: 0,
-        haste: 5,
+        haste: 4,
         mastery: 0,
-        versatility: 3
+        versatility: 4
       },
-      source: 'https://www.wowhead.com/npc=11487|Magister Kalendris@Dire Maul',
-      rarity: 1
+      source: 'https://www.wowhead.com/npc=88583|Grove Warden Yal@Gorgrond',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
     }, {
-      name: 'Cloak of Hidden Flasks',
-      wowheadURL: 'https://www.wowhead.com/item=144121?ilvl=25',
+      name: 'Craven Coward\'s Cloak',
+      wowheadURL: 'https://www.wowhead.com/item=119349?ilvl=25',
       stats: {
-        sockets: 0,
+        sockets: '1 (proc)',
         armor: 4,
         stamina: 5,
         mainStat: 4,
         critical: 0,
         haste: 0,
         mastery: 4,
-        versatility: 3
-      },
-      source: 'https://www.wowhead.com/npc=56717|Hoptallus@Stormstout Brewery',
-      rarity: 2,
-      note: 'The proc counts as battle & guardian elixir making it unusable with ALchemist\'s flask.'
-    }, {
-      name: 'Felblood-Starched Cloak',
-      wowheadURL: 'https://www.wowhead.com/item=113150?ilvl=25',
-      stats: {
-        sockets: 0,
-        armor: 0,
-        stamina: 5,
-        mainStat: 4,
-        critical: 0,
-        haste: 3,
-        mastery: 0,
         versatility: 4
       },
-      source: 'https://www.wowhead.com/quest=33116|Frostfire Ridge',
-      rarity: 1,
-      note: 'Can proc purple.'
+      source: 'https://www.wowhead.com/npc=87352|Gibblette the Cowardly@Frostfire Ridge',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
     }]
   }, {
     name: 'Finger',
@@ -7581,6 +7758,38 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=129431|Captain Eudora@Freehold',
       rarity: 2
+    }, {
+      name: 'Frosted Icequartz Ring',
+      wowheadURL: 'https://www.wowhead.com/item=119415?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 0,
+        mastery: 5,
+        versatility: 4
+      },
+      source: 'https://www.wowhead.com/npc=87348|Hoarfrost@Frostfire Ridge',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
+    }, {
+      name: 'Loop of Drowned Souls',
+      wowheadURL: 'https://www.wowhead.com/item=119387?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 5,
+        mainStat: 4,
+        critical: 4,
+        haste: 5,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=86213|Aqualir@Shadowmoon Valley',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
     }, {
       name: 'Swamprock Salvage Band',
       wowheadURL: 'https://www.wowhead.com/item=131797?ilvl=25',
