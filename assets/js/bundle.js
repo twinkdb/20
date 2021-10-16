@@ -5521,6 +5521,22 @@ var weapons = [{
     },
     source: '[Outland BoE]',
     rarity: 3
+  }, {
+    name: 'Barman Skewer',
+    wowheadURL: 'https://www.wowhead.com/item=160451&ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      damage: '4 - 8',
+      stamina: 5,
+      mainStat: 3,
+      critical: 4,
+      haste: 3,
+      mastery: 0,
+      versatility: 0
+    },
+    source: 'https://www.wowhead.com/npc=129181|Barman Bill@Tiragarde Sound',
+    rarity: 1,
+    note: 'You can only loot this once.'
   }]
 }, {
   name: 'Ranged',
@@ -5648,8 +5664,7 @@ var weapons = [{
       versatility: 10
     },
     source: '[TBC dungeon<br> drop(BoE)]',
-    rarity: 3,
-    note: 'Best dungeon to farm is Botanica due to the amount of mobs.'
+    rarity: 3
   }, {
     name: 'Wand of Zealous Purification',
     wowheadURL: 'https://www.wowhead.com/item=158321&ilvl=25',
@@ -5864,6 +5879,52 @@ var weapons = [{
     },
     source: 'https://www.wowhead.com/npc=139135|Squirgle of the Depths@Tiragarde Sound',
     rarity: 1
+  }, {
+    name: 'Zealot Blade',
+    wowheadURL: 'https://www.wowhead.com/item=13033&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '3 - 6',
+      stamina: 5,
+      mainStat: 20,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 7
+    },
+    source: 'https://www.wowhead.com/npc=75590|Enormous Bullfrog@Razorfen Kraul',
+    rarity: 2
+  }, {
+    name: 'Staff of the Great Reptile',
+    wowheadURL: 'https://www.wowhead.com/item=35633&ilvl=25',
+    stats: {
+      sockets: 0,
+      damage: '7 - 10',
+      stamina: 10,
+      mainStat: 29,
+      critical: 0,
+      haste: 11,
+      mastery: 0,
+      versatility: 13
+    },
+    source: 'https://www.wowhead.com/npc=27483|King Dred@Drak\'Tharon Keep',
+    rarity: 1
+  }, {
+    name: 'Darkspeaker Scepter',
+    wowheadURL: 'https://www.wowhead.com/item=160958&ilvl=25',
+    stats: {
+      sockets: '1 (proc)',
+      damage: '4 - 5',
+      stamina: 5,
+      mainStat: 19,
+      critical: 3,
+      haste: 0,
+      mastery: 3,
+      versatility: 0
+    },
+    source: 'https://www.wowhead.com/npc=134760|Darkspeaker Jola@Zuldazar',
+    rarity: 1,
+    note: 'You can only loot this once.'
   }]
 }, {
   name: 'Offhand',
@@ -6636,6 +6697,22 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=87622|Ogom the Mangler@Frostfire Ridge',
       rarity: 2,
       note: 'Socket proc chance is ~5%. Drops loot once a day.'
+    }, {
+      name: 'Ranja-Hide Bracers',
+      wowheadURL: 'https://www.wowhead.com/item=154478?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 5,
+        stamina: 5,
+        mainStat: 4,
+        critical: 4,
+        haste: 0,
+        mastery: 3,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=139278|Ranja@Tiragarde Sound',
+      rarity: 1,
+      note: 'You can only loot this once.'
     }]
   }, {
     name: 'Hands',
@@ -7694,6 +7771,22 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=87352|Gibblette the Cowardly@Frostfire Ridge',
       rarity: 2,
       note: 'Socket proc chance is ~5%. Drops loot once a day.'
+    }, {
+      name: 'Garyl\'s Riding Blanket',
+      wowheadURL: 'https://www.wowhead.com/item=155571?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 4,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 2,
+        mastery: 5,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/object=279750|Hay Covered Chest@Tiragarde Sound',
+      rarity: 1,
+      note: 'You can only loot this once.'
     }]
   }, {
     name: 'Finger',
@@ -7978,6 +8071,36 @@ var armor = [{
       source: 'https://www.wowhead.com/quest=49409@Tiragarde Sound',
       rarity: 1,
       note: 'Can proc blue/purple.'
+    }, {
+      name: 'Beastbinder Ring',
+      wowheadURL: 'https://www.wowhead.com/item=88265?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 16,
+        haste: 0,
+        mastery: 0,
+        versatility: 7
+      },
+      source: 'https://www.wowhead.com/npc=59303|Houndmaster Braun@Scarlet Halls',
+      rarity: 1
+    }, {
+      name: 'Seal of Rivendare',
+      wowheadURL: 'https://www.wowhead.com/item=13345?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 6,
+        haste: 0,
+        mastery: 0,
+        versatility: 16
+      },
+      source: 'https://www.wowhead.com/npc=45412|Lord Aurius Rivendare@Stratholme',
+      rarity: 1
     }]
   }]
 }];
@@ -8094,6 +8217,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=77530?ilvl=25',
     note: '30 secondary stats and pet proc.',
     source: 'https://www.wowhead.com/spell=127134'
+  }, {
+    name: 'Figurine - Ruby Hare',
+    wowheadURL: 'https://www.wowhead.com/item=42341?ilvl=19',
+    note: '4 stamina + speed on use + 2 sockets',
+    source: 'https://www.wowhead.com/spell=56199'
   }]
 }, {
   name: 'Super rare',
@@ -8132,6 +8260,16 @@ var trinkets = [{
     name: 'Bajheric Bangle',
     wowheadURL: 'https://www.wowhead.com/item=118881?ilvl=26',
     note: '5 crit + str on proc',
+    source: '[Draenor BoE]'
+  }, {
+    name: 'Everblooming Thorny Hibiscus',
+    wowheadURL: 'https://www.wowhead.com/item=118879?ilvl=26',
+    note: '5 vers + haste on proc',
+    source: '[Draenor BoE]'
+  }, {
+    name: 'Bronzed Elekk Statue',
+    wowheadURL: 'https://www.wowhead.com/item=118883?ilvl=26',
+    note: '5 stamina + vers on proc',
     source: '[Draenor BoE]'
   }]
 }];
