@@ -5258,6 +5258,21 @@ var weapons = [{
     rarity: 2,
     note: 'Combine 2 blue weapons that drop in Zul\'Farrak.'
   }, {
+    name: 'Combatant Claymore',
+    wowheadURL: 'https://www.wowhead.com/item=2877&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '13 - 23',
+      stamina: 7,
+      mainStat: 7,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 16
+    },
+    source: '[Classic BoE]',
+    rarity: 3
+  }, {
     name: 'The Chief\'s Enforcer',
     wowheadURL: 'https://www.wowhead.com/item=9477?ilvl=25',
     stats: {
@@ -5444,6 +5459,22 @@ var weapons = [{
     source: 'https://www.wowhead.com/npc=9019|Emperor Dagran Thaurissan@Blackrock Depths',
     rarity: 2
   }, {
+    name: 'Vibroblade',
+    wowheadURL: 'https://www.wowhead.com/item=9485&ilvl=25',
+    stats: {
+      sockets: 0,
+      damage: '5 - 12',
+      stamina: 0,
+      mainStat: 0,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: 'Gnomeregan BoE',
+    rarity: 3,
+    note: 'Very strong armor penetration. Bis offhand for most dual-wield classes. Very rare.'
+  }, {
     name: 'Cudgel of Naralex',
     wowheadURL: 'https://www.wowhead.com/item=156998&ilvl=24',
     stats: {
@@ -5557,6 +5588,22 @@ var weapons = [{
     rarity: 1,
     note: 'Can proc purple making it a very good option.'
   }, {
+    name: 'High-Strung Bow',
+    wowheadURL: 'https://www.wowhead.com/item=39829&ilvl=24',
+    stats: {
+      sockets: 0,
+      damage: '11 - 15',
+      stamina: 0,
+      mainStat: 11,
+      critical: 13,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: 'https://www.wowhead.com/quest=12609@Zul\'Drak',
+    rarity: 1,
+    note: 'Bad at green but very strong if procs purple.'
+  }, {
     name: 'Hand of Argus Crossfire',
     wowheadURL: 'https://www.wowhead.com/item=27640&ilvl=24',
     stats: {
@@ -5574,13 +5621,43 @@ var weapons = [{
     note: 'Can proc blue/purple making it a very good option.'
   }, {
     name: 'Precisely Calibrated Boomstick',
-    wowheadURL: 'https://www.wowhead.com/item=2100&ilvl=29',
+    wowheadURL: 'https://www.wowhead.com/item=2100&ilvl=27',
     stats: {
       sockets: 0,
       damage: '11 - 21 (3.00)',
       stamina: 0,
       mainStat: 18,
       critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Classic BoE]',
+    rarity: 3
+  }, {
+    name: 'Needle Threader',
+    wowheadURL: 'https://www.wowhead.com/item=13021&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '12 - 17',
+      stamina: 10,
+      mainStat: 7,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 10
+    },
+    source: '[Classic BoE]',
+    rarity: 3
+  }, {
+    name: 'Skull Splitting Crossbow',
+    wowheadURL: 'https://www.wowhead.com/item=13039&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '12 - 18',
+      stamina: 0,
+      mainStat: 7,
+      critical: 15,
       haste: 0,
       mastery: 0,
       versatility: 0
@@ -6284,6 +6361,22 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=17377|Keli\'dan the Breaker@The Blood Furnace',
       rarity: 1,
       note: 'Hallowed and Incanter are better but you can queue Blood Furnace from the dungeon finder.'
+    }, {
+      name: 'Chemise of Rebirth',
+      wowheadURL: 'https://www.wowhead.com/item=31657?ilvl=24',
+      stats: {
+        sockets: 3,
+        armor: 5,
+        stamina: 9,
+        mainStat: 7,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
+      rarity: 1,
+      note: 'Very good if proc purple.'
     }]
   }, {
     name: 'Wrist',
@@ -6551,6 +6644,22 @@ var armor = [{
       source: 'https://www.wowhead.com/spell=127118',
       rarity: 2,
       note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
+    }, {
+      name: 'Scout\'s Hood',
+      wowheadURL: 'https://www.wowhead.com/item=31658?ilvl=24',
+      stats: {
+        sockets: 3,
+        armor: 7,
+        stamina: 9,
+        mainStat: 7,
+        critical: 5,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
+      rarity: 1,
+      note: 'Good if proc purple.'
     }]
   }, {
     name: 'Shoulders',
@@ -7202,6 +7311,22 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=24200|Skarvald the Constructor@Utgarde Keep',
       rarity: 1,
       note: 'A budget alternative to Davidian if you need a meta socket.'
+    }, {
+      name: 'Circle\'s Stalwart Helmet',
+      wowheadURL: 'https://www.wowhead.com/item=27715?ilvl=24',
+      stats: {
+        sockets: 3,
+        armor: 15,
+        stamina: 9,
+        mainStat: 7,
+        critical: 6,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
+      rarity: 1,
+      note: 'Good if proc purple.'
     }]
   }, {
     name: 'Shoulders',
@@ -7689,6 +7814,38 @@ var armor = [{
       source: 'https://www.wowhead.com/quest=39178@Highmountain',
       rarity: 1,
       note: 'Can proc blue/purple.'
+    }, {
+      name: 'Talisman of Jaimil Lightheart',
+      wowheadURL: 'https://www.wowhead.com/item=141588?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 17,
+        haste: 0,
+        mastery: 0,
+        versatility: 8
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Can be farmed at 20.'
+    }, {
+      name: 'Queen Yh\'saerie\'s Pendant',
+      wowheadURL: 'https://www.wowhead.com/item=141587?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 14,
+        mastery: 11,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Can be farmed at 20.'
     }]
   }, {
     name: 'Back',
@@ -8040,22 +8197,6 @@ var armor = [{
       rarity: 1,
       note: 'Can proc blue/purple.'
     }, {
-      name: 'Demar\'s Band of Amore',
-      wowheadURL: 'https://www.wowhead.com/item=141581?ilvl=28',
-      stats: {
-        sockets: '1 (proc)',
-        armor: 0,
-        stamina: 6,
-        mainStat: 0,
-        critical: 0,
-        haste: 0,
-        mastery: 25,
-        versatility: 0
-      },
-      source: '[Legion BoE]',
-      rarity: 3,
-      note: 'Farmable at 20'
-    }, {
       name: 'Soul of the Sea',
       wowheadURL: 'https://www.wowhead.com/item=160261?ilvl=25',
       stats: {
@@ -8101,6 +8242,102 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=45412|Lord Aurius Rivendare@Stratholme',
       rarity: 1
+    }, {
+      name: 'Vastly Oversized Ring',
+      wowheadURL: 'https://www.wowhead.com/item=141580?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 25,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
+    }, {
+      name: 'Fran\'s Intractable Loop',
+      wowheadURL: 'https://www.wowhead.com/item=141582?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 25,
+        mastery: 0,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
+    }, {
+      name: 'Gnarled Mood Ring',
+      wowheadURL: 'https://www.wowhead.com/item=163934?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 25,
+        mastery: 0,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
+    }, {
+      name: 'Demar\'s Band of Amore',
+      wowheadURL: 'https://www.wowhead.com/item=141581?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 25,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
+    }, {
+      name: 'Aguas\' Band of Augury',
+      wowheadURL: 'https://www.wowhead.com/item=163933?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 25,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
+    }, {
+      name: 'Sameed\'s Vision Ring',
+      wowheadURL: 'https://www.wowhead.com/item=141583?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 25
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
     }]
   }]
 }];
