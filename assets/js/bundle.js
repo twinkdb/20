@@ -8275,40 +8275,8 @@ var armor = [{
       rarity: 3,
       note: 'Farmable at 20'
     }, {
-      name: 'Gnarled Mood Ring',
-      wowheadURL: 'https://www.wowhead.com/item=163934?ilvl=28',
-      stats: {
-        sockets: '1 (proc)',
-        armor: 0,
-        stamina: 6,
-        mainStat: 0,
-        critical: 0,
-        haste: 25,
-        mastery: 0,
-        versatility: 0
-      },
-      source: '[Legion BoE]',
-      rarity: 3,
-      note: 'Farmable at 20'
-    }, {
       name: 'Demar\'s Band of Amore',
       wowheadURL: 'https://www.wowhead.com/item=141581?ilvl=28',
-      stats: {
-        sockets: '1 (proc)',
-        armor: 0,
-        stamina: 6,
-        mainStat: 0,
-        critical: 0,
-        haste: 0,
-        mastery: 25,
-        versatility: 0
-      },
-      source: '[Legion BoE]',
-      rarity: 3,
-      note: 'Farmable at 20'
-    }, {
-      name: 'Aguas\' Band of Augury',
-      wowheadURL: 'https://www.wowhead.com/item=163933?ilvl=28',
       stats: {
         sockets: '1 (proc)',
         armor: 0,
