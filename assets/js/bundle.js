@@ -5603,6 +5603,22 @@ var weapons = [{
     },
     source: '[Outland BoE]',
     rarity: 3
+  }, {
+    name: 'The Night Blade',
+    wowheadURL: 'https://www.wowhead.com/item=31331&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '5 - 9',
+      stamina: 0,
+      mainStat: 0,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Outland dungeon BoE]',
+    rarity: 3,
+    note: 'Super rare. Only 1 confirmed drop. Easily the BiS rogue dagger.'
   }]
 }, {
   name: 'Ranged',
@@ -7224,6 +7240,22 @@ var armor = [{
       source: 'https://www.wowhead.com/spell=127120',
       note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519"></a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413"></a>',
       rarity: 2
+    }, {
+      name: "Hexu's Amplifying Helm",
+      wowheadURL: 'https://www.wowhead.com/item=87456?ilvl=28',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 12,
+        stamina: 11,
+        mainStat: 7,
+        critical: 7,
+        haste: 4,
+        mastery: 0,
+        versatility: 0
+      },
+      source: '[Pandaria BoE]',
+      rarity: 3,
+      note: 'Farmable on lvl 22.'
     }]
   }, {
     name: 'Shoulders',
@@ -7612,7 +7644,7 @@ var armor = [{
         versatility: 0
       },
       source: '[Utgarde Pinnacle BoE]',
-      rarity: 1
+      rarity: 2
     }, {
       name: 'Concealed Fencing Plates',
       wowheadURL: 'https://www.wowhead.com/item=158311?ilvl=25',
@@ -8095,6 +8127,22 @@ var armor = [{
       source: '[Legion BoE]',
       rarity: 3,
       note: 'Can be farmed at 20.'
+    }, {
+      name: "Charlotte's Ivy",
+      wowheadURL: 'https://www.wowhead.com/item=31338?ilvl=26',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 7,
+        mainStat: 5,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: '[Outland dungeon BoE]',
+      rarity: 3,
+      note: 'Farmable on lvl 17. Only good with set bonus.'
     }]
   }, {
     name: 'Back',
@@ -8193,6 +8241,38 @@ var armor = [{
       source: 'https://www.wowhead.com/object=279750|Hay Covered Chest@Tiragarde Sound',
       rarity: 1,
       note: 'You can only loot this once.'
+    }, {
+      name: "Treia's Handcrafted Shroud",
+      wowheadURL: 'https://www.wowhead.com/item=141589?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 4,
+        stamina: 6,
+        mainStat: 4,
+        critical: 5,
+        haste: 3,
+        mastery: 0,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20.'
+    }, {
+      name: 'Cloak of Martayl Oceanstrider',
+      wowheadURL: 'https://www.wowhead.com/item=141590?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 4,
+        stamina: 6,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 6,
+        versatility: 2
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20.'
     }]
   }, {
     name: 'Finger',
@@ -8226,6 +8306,38 @@ var armor = [{
         versatility: 11
       },
       source: 'https://www.wowhead.com/npc=121242|Glompmaw@Nazmir',
+      rarity: 1,
+      note: 'One time drop.'
+    }, {
+      name: "Lazy-Baker's Ring",
+      wowheadURL: 'https://www.wowhead.com/item=155560?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 13,
+        versatility: 10
+      },
+      source: 'https://www.wowhead.com/npc=139358|The Caterer@Drustvar',
+      rarity: 1,
+      note: 'One time drop.'
+    }, {
+      name: 'Band of Seething Manifest',
+      wowheadURL: 'https://www.wowhead.com/item=158598?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 12,
+        haste: 0,
+        mastery: 11,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/object=277897|Seething Cache@Drustvar',
       rarity: 1,
       note: 'One time drop.'
     }, {
@@ -8587,6 +8699,22 @@ var armor = [{
       source: '[Legion BoE]',
       rarity: 3,
       note: 'Farmable at 20'
+    }, {
+      name: "Lola's Eve",
+      wowheadURL: 'https://www.wowhead.com/item=31339?ilvl=26',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 5,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: '[Outland dungeon BoE]',
+      rarity: 3,
+      note: 'Farmable at lvl 17. Only good with set bonus.'
     }]
   }]
 }];
@@ -8657,6 +8785,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=131799?ilvl=25',
     note: '6 str + mastery on proc',
     source: 'https://www.wowhead.com/npc=98299|Bodash the Hoarder@Highmountain'
+  }, {
+    name: "Legacy of Om'ra",
+    wowheadURL: 'https://www.wowhead.com/item=113527?ilvl=25',
+    note: '6 int + mastery on proc',
+    source: "https://www.wowhead.com/npc=75071|Mother Om'ra@Shadowmoon Valley"
   }]
 }, {
   name: 'On use',
