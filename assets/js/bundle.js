@@ -5349,6 +5349,22 @@ var weapons = [{
     source: '[Classic BoE]',
     rarity: 3,
     note: 'Inferior to Gnarled Ash Staff but still decent if you find it cheap.'
+  }, {
+    name: "Ritter's Rat Render",
+    wowheadURL: 'https://www.wowhead.com/item=87420&ilvl=28',
+    stats: {
+      sockets: 0,
+      damage: '13 - 25',
+      stamina: 11,
+      mainStat: 7,
+      critical: 7,
+      haste: 7,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Pandaria BoE]',
+    rarity: 3,
+    note: 'Super rare.'
   }]
 }, {
   name: '1H melee',
@@ -5588,6 +5604,21 @@ var weapons = [{
     },
     source: 'https://www.wowhead.com/npc=122968|Yazma@Atal\'Dazar',
     rarity: 2
+  }, {
+    name: 'The Shadowfoot Stabber',
+    wowheadURL: 'https://www.wowhead.com/item=24222&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '5 - 9',
+      stamina: 4,
+      mainStat: 3,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Outland BoE]',
+    rarity: 3
   }, {
     name: 'Ced\'s Carver',
     wowheadURL: 'https://www.wowhead.com/item=31305&ilvl=27',
@@ -6071,6 +6102,21 @@ var weapons = [{
       versatility: 10
     },
     source: '[Outland BoE]',
+    rarity: 3
+  }, {
+    name: "Matti's Magnificent Mace",
+    wowheadURL: 'https://www.wowhead.com/item=118788&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '4 - 6',
+      stamina: 5,
+      mainStat: 20,
+      critical: 0,
+      haste: 3,
+      mastery: 4,
+      versatility: 0
+    },
+    source: '[Draenor BoE]',
     rarity: 3
   }]
 }, {
@@ -7028,6 +7074,22 @@ var armor = [{
   }, {
     name: 'Waist',
     items: [{
+      name: 'Direhorn Studded Belt',
+      wowheadURL: 'https://www.wowhead.com/item=161218?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 6,
+        stamina: 7,
+        mainStat: 5,
+        critical: 5,
+        haste: 0,
+        mastery: 5,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=124399|Infected Direhorn@Nazmir',
+      rarity: 1,
+      note: 'Drops only once.'
+    }, {
       name: 'Liar\'s Cord',
       wowheadURL: 'https://www.wowhead.com/item=28124?ilvl=25',
       stats: {
@@ -7193,21 +7255,21 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=18373|Exarch Maladaar@Auchenai Crypts',
       rarity: 1
     }, {
-      name: 'Helm of Elemental Binding',
-      wowheadURL: 'https://www.wowhead.com/item=87451?ilvl=28',
+      name: "Corrupted Keeper's Band",
+      wowheadURL: 'https://www.wowhead.com/item=132561?ilvl=25',
       stats: {
-        sockets: 'Meta + 1',
-        armor: 12,
-        stamina: 11,
-        mainStat: 8,
-        critical: 5,
+        sockets: 0,
+        armor: 11,
+        stamina: 10,
+        mainStat: 0,
+        critical: 9,
         haste: 0,
-        mastery: 6,
-        versatility: 0
+        mastery: 0,
+        versatility: 23
       },
-      source: '[Pandaria BoE]',
+      source: 'https://www.wowhead.com/npc=12225|Celebras The Cursed@Maraudon',
       rarity: 2,
-      note: 'Requires lvl 22 farmer for iLvl 28.'
+      note: "Can't queue this boss"
     }, {
       name: 'Energized Retinal Armor',
       wowheadURL: 'https://www.wowhead.com/item=77537?ilvl=19',
@@ -7240,6 +7302,22 @@ var armor = [{
       source: 'https://www.wowhead.com/spell=127120',
       note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519"></a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413"></a>',
       rarity: 2
+    }, {
+      name: 'Helm of Elemental Binding',
+      wowheadURL: 'https://www.wowhead.com/item=87451?ilvl=28',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 12,
+        stamina: 11,
+        mainStat: 8,
+        critical: 5,
+        haste: 0,
+        mastery: 6,
+        versatility: 0
+      },
+      source: '[Pandaria BoE]',
+      rarity: 3,
+      note: 'Requires lvl 22 farmer for iLvl 28.'
     }, {
       name: "Hexu's Amplifying Helm",
       wowheadURL: 'https://www.wowhead.com/item=87456?ilvl=28',
@@ -7458,7 +7536,7 @@ var armor = [{
         mastery: 0,
         versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=18096|Epoch Hunter@Old Hilsbrad Foothills',
+      source: 'https://www.wowhead.com/npc=26723|Keristrasza@The Nexus',
       rarity: 1
     }]
   }]
@@ -8790,6 +8868,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=113527?ilvl=25',
     note: '6 int + mastery on proc',
     source: "https://www.wowhead.com/npc=75071|Mother Om'ra@Shadowmoon Valley"
+  }, {
+    name: "Endless Tincture of Renewed Combat",
+    wowheadURL: 'https://www.wowhead.com/item=152634?ilvl=19',
+    note: '6 vers + heal on kill',
+    source: "https://www.wowhead.com/spell=252362"
   }]
 }, {
   name: 'On use',
