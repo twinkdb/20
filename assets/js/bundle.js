@@ -5535,7 +5535,7 @@ var weapons = [{
       mastery: 0,
       versatility: 0
     },
-    source: 'Gnomeregan BoE',
+    source: '[Gnomeregan BoE]',
     rarity: 3,
     note: 'Very strong armor penetration. Bis offhand for most dual-wield classes. Very rare.'
   }]
@@ -5618,6 +5618,36 @@ var weapons = [{
       versatility: 0
     },
     source: '[Outland BoE]',
+    rarity: 3
+  }, {
+    name: "Elanor's Edge",
+    wowheadURL: 'https://www.wowhead.com/item=37802&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '5 - 9',
+      stamina: 4,
+      mainStat: 3,
+      critical: 4,
+      haste: 4,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Northrend BoE]',
+    rarity: 3
+  }, {
+    name: 'Widowmaker',
+    wowheadURL: 'https://www.wowhead.com/item=4091&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '5 - 9',
+      stamina: 0,
+      mainStat: 5,
+      critical: 0,
+      haste: 6,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[BoE Outland]',
     rarity: 3
   }, {
     name: 'Ced\'s Carver',
@@ -6000,6 +6030,70 @@ var weapons = [{
     source: 'https://www.wowhead.com/quest=12948@Zul\'Drak',
     rarity: 1,
     note: 'Can proc purple but the stats remain the same.'
+  }, {
+    name: 'Black Crystal Dagger',
+    wowheadURL: 'https://www.wowhead.com/item=20647&ilvl=25',
+    stats: {
+      sockets: 0,
+      damage: '2 - 4',
+      stamina: 5,
+      mainStat: 19,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 7
+    },
+    source: 'https://www.wowhead.com/quest=8283@Silithus',
+    rarity: 1,
+    note: 'Can proc purple. No changes in stats though.'
+  }, {
+    name: 'Rod of the Crimson Keeper',
+    wowheadURL: 'https://www.wowhead.com/item=37078&ilvl=24',
+    stats: {
+      sockets: 0,
+      damage: '2 - 4',
+      stamina: 4,
+      mainStat: 17,
+      critical: 3,
+      haste: 0,
+      mastery: 0,
+      versatility: 7
+    },
+    source: 'https://www.wowhead.com/quest=11969@Borean Tundra',
+    rarity: 1,
+    note: 'Can proc blue or purple. Not good at green.'
+  }, {
+    name: 'Glimmering Orca Tooth',
+    wowheadURL: 'https://www.wowhead.com/item=37042&ilvl=24',
+    stats: {
+      sockets: 0,
+      damage: '2 - 4',
+      stamina: 4,
+      mainStat: 17,
+      critical: 7,
+      haste: 4,
+      mastery: 0,
+      versatility: 0
+    },
+    source: 'https://www.wowhead.com/quest=11570@Borean Tundra',
+    rarity: 1,
+    note: 'Can proc blue and purple. Not good at green.'
+  }, {
+    name: 'Dowsing Rod',
+    wowheadURL: 'https://www.wowhead.com/item=37015&ilvl=24',
+    stats: {
+      sockets: 0,
+      damage: '2 - 4',
+      stamina: 4,
+      mainStat: 17,
+      critical: 6,
+      haste: 4,
+      mastery: 0,
+      versatility: 0
+    },
+    source: 'https://www.wowhead.com/quest=11872@Borean Tundra',
+    rarity: 1,
+    note: 'Can proc blue or purple. Not good at green.'
   }, {
     name: 'Blade of Eternal Darkness',
     wowheadURL: 'https://www.wowhead.com/item=17780&ilvl=26',
@@ -7453,6 +7547,21 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=16808|Warchief Kargath Bladefist@The Shattered Halls',
       rarity: 1
     }, {
+      name: 'Stormfront Gauntlets',
+      wowheadURL: 'https://www.wowhead.com/item=27428?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 8,
+        stamina: 7,
+        mainStat: 5,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/npc=17862|Captain Skarloc@Old Hilsbrad Foothills',
+      rarity: 1
+    }, {
       name: 'Abyssal Scale Gauntlets',
       wowheadURL: 'https://www.wowhead.com/item=161098?ilvl=25',
       stats: {
@@ -8112,6 +8221,36 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=12201|Princess Theradras@Maraudon',
       rarity: 1
     }, {
+      name: 'Tempest Talisman',
+      wowheadURL: 'https://www.wowhead.com/item=18317?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 8,
+        haste: 0,
+        mastery: 0,
+        versatility: 14
+      },
+      source: 'https://www.wowhead.com/npc=13280|Hydrospawn@Dire Maul',
+      rarity: 1
+    }, {
+      name: 'Brysngamen, Torc of Helheim',
+      wowheadURL: 'https://www.wowhead.com/item=133636?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 0,
+        haste: 0,
+        mastery: 16,
+        versatility: 6
+      },
+      source: 'https://www.wowhead.com/npc=96759|Helya@Maw of Souls',
+      rarity: 2
+    }, {
       name: 'Raven Filigree Pendant',
       wowheadURL: 'https://www.wowhead.com/item=134499?ilvl=25',
       stats: {
@@ -8714,6 +8853,21 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=45412|Lord Aurius Rivendare@Stratholme',
       rarity: 1
     }, {
+      name: 'Blackstone Ring',
+      wowheadURL: 'https://www.wowhead.com/item=17713?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 12,
+        haste: 0,
+        mastery: 0,
+        versatility: 11
+      },
+      source: 'https://www.wowhead.com/npc=12201|Princess Theradras@Maraudon',
+      rarity: 1
+    }, {
       name: 'Vastly Oversized Ring',
       wowheadURL: 'https://www.wowhead.com/item=141580?ilvl=28',
       stats: {
@@ -8858,6 +9012,16 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=113160?ilvl=24',
     note: '6 int + int on proc',
     source: 'https://www.wowhead.com/quest=34847@Shadowmoon Valley'
+  }, {
+    name: 'Forge Ember',
+    wowheadURL: 'https://www.wowhead.com/item=37660?ilvl=25',
+    note: '9 crit + int on proc',
+    source: 'https://www.wowhead.com/npc=27978|Sjonnir the Ironshaper@Halls of Stone'
+  }, {
+    name: 'Spark of Life',
+    wowheadURL: 'https://www.wowhead.com/item=37657?ilvl=25',
+    note: '9 haste + vers on proc',
+    source: 'https://www.wowhead.com/npc=27978|Sjonnir the Ironshaper@Halls of Stone'
   }, {
     name: 'Zugdug\'s Piece of Paradise',
     wowheadURL: 'https://www.wowhead.com/item=131799?ilvl=25',
