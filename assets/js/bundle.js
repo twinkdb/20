@@ -5257,21 +5257,6 @@ var weapons = [{
     source: 'https://www.wowhead.com/npc=7267|Chief Ukorz Sandscalp@Zul\'Farrak',
     rarity: 1
   }, {
-    name: 'Diabolic Skiver',
-    wowheadURL: 'https://www.wowhead.com/item=9475?ilvl=25',
-    stats: {
-      sockets: 0,
-      damage: '11 - 22',
-      stamina: 10,
-      mainStat: 6,
-      critical: 0,
-      haste: 0,
-      mastery: 0,
-      versatility: 0
-    },
-    source: 'https://www.wowhead.com/npc=7275|Shadowpriest Sezz\'ziz@Zul\'Farrak',
-    rarity: 1
-  }, {
     name: 'Runeblade of Baron Rivendare',
     wowheadURL: 'https://www.wowhead.com/item=13505?ilvl=26',
     stats: {
@@ -5347,8 +5332,7 @@ var weapons = [{
       versatility: 8
     },
     source: '[Classic BoE]',
-    rarity: 3,
-    note: 'Inferior to Gnarled Ash Staff but still decent if you find it cheap.'
+    rarity: 3
   }, {
     name: "Ritter's Rat Render",
     wowheadURL: 'https://www.wowhead.com/item=87420&ilvl=28',
