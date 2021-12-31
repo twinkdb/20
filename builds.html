@@ -223,7 +223,7 @@
           <div class="build-items__body">
             {{#each this.builds}}
               <div class="build-item js-build-item" id="{{this.id}}" data-type="{{this.type}}">
-                <a href="#" class="build-item__anchor js-build-switch" data-target="build" data-class="{{this.class_handle}}" data-id="{{this.id}}"></a>
+                <a href="/20/builds.html?build={{this.class_handle}}:{{this.id}}" class="build-item__anchor js-build-switch" data-target="build" data-class="{{this.class_handle}}" data-id="{{this.id}}"></a>
 
                 <div class="build-item__image">
                   <img src="./assets/images/temp/class-{{this.class_handle}}-{{this.spec_handle}}.png" alt="{{this.class_handle}} {{this.spec_handle}}">

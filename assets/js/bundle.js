@@ -9376,6 +9376,11 @@ var Builds = function () {
 
             _this4.switchLayout(link.dataset.target === 'build');
 
+            window.scrollTo({
+              top: 0,
+              behavior: 'instant'
+            });
+
             _this4.setEvents();
 
             window.$WowheadPower.refreshLinks();
@@ -9739,3 +9744,4 @@ var initTabs = function initTabs() {
 /***/ })
 
 /******/ });
+//# sourceMappingURL=bundle.js.map

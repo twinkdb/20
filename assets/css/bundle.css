@@ -486,6 +486,14 @@ blockquote:last-child {
   -webkit-columns: 2;
      -moz-columns: 2;
           columns: 2;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .build-items-container {
+    -webkit-columns: 1;
+       -moz-columns: 1;
+            columns: 1;
+  }
 }
 .build-items {
   -webkit-column-break-inside: avoid;
@@ -556,6 +564,13 @@ blockquote:last-child {
   display: flex;
   padding: 10px;
   position: relative;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .build-item {
+    text-align: center;
+    display: block;
+  }
 }
 .build-item::after {
   content: attr(data-type);
@@ -568,6 +583,12 @@ blockquote:last-child {
   font-size: 32px;
   font-weight: 600;
   opacity: 0.5;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .build-item::after {
+    content: none;
+  }
 }
 .build-item .build-item__anchor {
   display: block;
@@ -579,6 +600,12 @@ blockquote:last-child {
 }
 .build-item .build-item__image {
   margin-right: 10px;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .build-item .build-item__image {
+    margin-bottom: 5px;
+  }
 }
 .build-item .build-item__title {
   font-size: 18px;
@@ -599,9 +626,35 @@ blockquote:last-child {
 /* ------------------------------------------------------------ *\
   build
 \* ------------------------------------------------------------ */
+.build-container .title-with-image {
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .build-container .title-with-image {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .build-container .title-with-image img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 64px;
+  }
+}
 .build a[data-wh-icon-size] {
   text-decoration: none;
   white-space: nowrap;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .build a[data-wh-icon-size] {
+    white-space: normal;
+    font-size: 14px;
+  }
 }
 .build .build__head {
   text-align: center;
@@ -630,6 +683,17 @@ blockquote:last-child {
   background-color: #282828;
   padding: 15px;
   margin-bottom: 16px;
+  /* Tablet Portrait */
+}
+@media (max-width: 1023px) {
+  .build .build__col {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    border: none;
+    padding: 0;
+  }
 }
 .build .build__col.build__col--full {
   -webkit-box-flex: 0;
@@ -653,6 +717,7 @@ blockquote:last-child {
   -webkit-column-gap: 6px;
      -moz-column-gap: 6px;
           column-gap: 6px;
+  row-gap: 6px;
 }
 .builds-filter input {
   opacity: 0;
@@ -1487,3 +1552,4 @@ ul.widgets {
 /* ------------------------------------------------------------ *\
 	Overwrites
 \* ------------------------------------------------------------ */
+/*# sourceMappingURL=bundle.css.map */
