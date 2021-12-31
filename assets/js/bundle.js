@@ -9138,10 +9138,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_HandlebarsHelper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/HandlebarsHelper */ "../src/assets/js/modules/HandlebarsHelper.js");
 /* harmony import */ var _modules_TableHelper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/TableHelper */ "../src/assets/js/modules/TableHelper.js");
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tabs */ "../src/assets/js/modules/tabs.js");
-/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/nav */ "../src/assets/js/modules/nav.js");
-/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_nav__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _modules_spoiler__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/spoiler */ "../src/assets/js/modules/spoiler.js");
-/* harmony import */ var _modules_spoiler__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_modules_spoiler__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _modules_Builds__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/Builds */ "../src/assets/js/modules/Builds.js");
+/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/nav */ "../src/assets/js/modules/nav.js");
+/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_modules_nav__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _modules_spoiler__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/spoiler */ "../src/assets/js/modules/spoiler.js");
+/* harmony import */ var _modules_spoiler__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_modules_spoiler__WEBPACK_IMPORTED_MODULE_5__);
+
 
 
 
@@ -9153,6 +9155,278 @@ document.querySelector('.js-template-armor') && document.querySelector('.js-targ
 document.querySelector('.js-template-trinkets') && document.querySelector('.js-target-trinkets') && handlebarsHelper.initTable('trinkets');
 var tableHelper = new _modules_TableHelper__WEBPACK_IMPORTED_MODULE_1__["default"]();
 Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["initTabs"])();
+document.querySelector('.page-builds') && new _modules_Builds__WEBPACK_IMPORTED_MODULE_3__["default"]();
+
+/***/ }),
+
+/***/ "../src/assets/js/modules/Builds.js":
+/*!******************************************!*\
+  !*** ../src/assets/js/modules/Builds.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Builds; });
+function _createForOfIteratorHelper(o) { if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) { var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var it, normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var Handlebars = __webpack_require__(/*! handlebars */ "../node_modules/handlebars/dist/cjs/handlebars.js");
+
+var Builds = function () {
+  function Builds() {
+    _classCallCheck(this, Builds);
+
+    this.wrapper = document.querySelector('.js-builds');
+    this.json = undefined;
+    this.layout = {
+      buildsList: this.wrapper.querySelector('.js-builds-list-container'),
+      build: this.wrapper.querySelector('.js-build-container')
+    };
+    this.buildItemsHandlebars = {
+      template: document.querySelector('.js-template-build-items'),
+      target: this.wrapper.querySelector('.js-target-build-items')
+    };
+    this.buildHandlebars = {
+      template: document.querySelector('.js-template-build'),
+      target: this.wrapper.querySelector('.js-target-build')
+    };
+    this.setHandlebarsHelpers();
+    this.setJSON();
+    this.selectors = {
+      filters: '.js-builds-filter',
+      buildItems: '.js-build-items',
+      buildItem: '.js-build-item'
+    };
+  }
+
+  _createClass(Builds, [{
+    key: "setJSON",
+    value: function setJSON() {
+      var _this = this;
+
+      fetch('https://api.npoint.io/11c628dda60c2670812b').then(function (result) {
+        return result.json();
+      }).then(function (data) {
+        _this.json = data;
+
+        _this.initPage();
+      });
+    }
+  }, {
+    key: "initPage",
+    value: function initPage() {
+      this.parseTemplate(this.json, this.buildItemsHandlebars.template, this.buildItemsHandlebars.target);
+      this.initFilters();
+      this.initButtons();
+      this.setEvents();
+
+      if (window.location.search.includes('build=')) {
+        var settings = window.location.search.split('build=')[1].split(':');
+        var cls = settings[0];
+        var id = settings[1];
+        var link = this.wrapper.querySelector(".js-build-switch[data-class=\"".concat(cls, "\"][data-id=\"").concat(id, "\"]"));
+
+        if (link) {
+          link.click();
+        }
+      }
+    }
+  }, {
+    key: "parseTemplate",
+    value: function parseTemplate(db, hbTemplate, hbTarget) {
+      var source = hbTemplate.innerHTML;
+      var template = Handlebars.compile(source);
+      var html = template(db);
+      hbTarget.innerHTML = html;
+    }
+  }, {
+    key: "setHandlebarsHelpers",
+    value: function setHandlebarsHelpers() {
+      Handlebars.registerHelper('handleizeName', function (value) {
+        return value.replace(/\s+/g, '-').toLowerCase();
+      });
+      Handlebars.registerHelper('printBuild', function (value) {
+        return value.join('').replaceAll('\n', '<br />').replaceAll('[[', '<a data-wh-icon-size="small" href="').replaceAll(']]', '"></a>');
+      });
+    }
+  }, {
+    key: "getSelectedFilters",
+    value: function getSelectedFilters() {
+      return _toConsumableArray(document.querySelectorAll(this.selectors.filters)).filter(function (filter) {
+        return filter.querySelector('input').checked;
+      });
+    }
+  }, {
+    key: "filterBuilds",
+    value: function filterBuilds() {
+      var items = Array.from(document.querySelectorAll(this.selectors.buildItems));
+      var selectedFilters = this.getSelectedFilters().map(function (filter) {
+        return filter.dataset.type;
+      });
+
+      for (var _i = 0, _items = items; _i < _items.length; _i++) {
+        var item = _items[_i];
+        var isSelected = selectedFilters.includes(item.dataset.class);
+        item.classList[isSelected ? 'remove' : 'add']('hidden');
+      }
+    }
+  }, {
+    key: "toggleFilters",
+    value: function toggleFilters(checked) {
+      var _iterator = _createForOfIteratorHelper(document.querySelectorAll(this.selectors.filters)),
+          _step;
+
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var filter = _step.value;
+          filter.querySelector('input').checked = checked;
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
+
+      this.filterBuilds();
+    }
+  }, {
+    key: "initFilters",
+    value: function initFilters() {
+      var _this2 = this;
+
+      this.filterBuilds();
+      var filters = Array.from(document.querySelectorAll(this.selectors.filters));
+
+      for (var _i2 = 0, _filters = filters; _i2 < _filters.length; _i2++) {
+        var filter = _filters[_i2];
+
+        filter.querySelector('input').onchange = function () {
+          _this2.filterBuilds();
+        };
+      }
+    }
+  }, {
+    key: "initButtons",
+    value: function initButtons() {
+      var _this3 = this;
+
+      var btns = this.wrapper.querySelectorAll('.js-toggle-filters');
+
+      var _iterator2 = _createForOfIteratorHelper(btns),
+          _step2;
+
+      try {
+        var _loop = function _loop() {
+          var btn = _step2.value;
+
+          btn.onclick = function (event) {
+            event.preventDefault();
+            var checked = btn.dataset.checked === 'true';
+
+            _this3.toggleFilters(checked);
+          };
+        };
+
+        for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+          _loop();
+        }
+      } catch (err) {
+        _iterator2.e(err);
+      } finally {
+        _iterator2.f();
+      }
+    }
+  }, {
+    key: "setEvents",
+    value: function setEvents() {
+      var _this4 = this;
+
+      var links = this.wrapper.querySelectorAll('.js-build-switch');
+
+      var _iterator3 = _createForOfIteratorHelper(links),
+          _step3;
+
+      try {
+        var _loop2 = function _loop2() {
+          var link = _step3.value;
+
+          link.onclick = function (event) {
+            event.preventDefault();
+
+            _this4.initBuildHTML(link);
+
+            _this4.switchLayout(link.dataset.target === 'build');
+
+            _this4.setEvents();
+
+            window.$WowheadPower.refreshLinks();
+
+            if (history.pushState) {
+              if (window.location.search.includes('build=') && link.dataset.target !== 'build') {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+              } else {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + "?build=".concat(link.dataset.class, ":").concat(link.dataset.id);
+              }
+
+              window.history.replaceState({
+                path: newurl
+              }, '', newurl);
+            }
+          };
+        };
+
+        for (_iterator3.s(); !(_step3 = _iterator3.n()).done;) {
+          _loop2();
+        }
+      } catch (err) {
+        _iterator3.e(err);
+      } finally {
+        _iterator3.f();
+      }
+    }
+  }, {
+    key: "initBuildHTML",
+    value: function initBuildHTML(link) {
+      if (!link.dataset.class || !link.dataset.id) return;
+      var characterClass = this.json['classes'].find(function (item) {
+        return item['name_handle'] === link.dataset.class;
+      });
+      var build = characterClass['builds'].find(function (item) {
+        return item['id'] === link.dataset.id;
+      });
+      this.parseTemplate(build, this.buildHandlebars.template, this.buildHandlebars.target);
+    }
+  }, {
+    key: "switchLayout",
+    value: function switchLayout(toBuild) {
+      this.layout.buildsList.classList[toBuild ? 'add' : 'remove']('hidden');
+      this.layout.build.classList[toBuild ? 'remove' : 'add']('hidden');
+    }
+  }]);
+
+  return Builds;
+}();
+
+
 
 /***/ }),
 

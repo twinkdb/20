@@ -5,14 +5,28 @@
 	Generic
 \* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ *\
+	Sprite
+\* ------------------------------------------------------------ */
+:root {
+  --c-class-dk: 196, 30, 58;
+  --c-class-dh: 163,	48,	201;
+  --c-class-druid: 255,	124,	10;
+  --c-class-hunter: 170,	211,	114;
+  --c-class-mage: 63,	199,	235;
+  --c-class-monk: 0,	255,	152;
+  --c-class-paladin: 244,	140,	186;
+  --c-class-priest: 255,	255,	255;
+  --c-class-rogue: 255,	244,	104;
+  --c-class-shaman:	0,	112,	221;
+  --c-class-warlock: 135,	136,	238;
+  --c-class-warrior: 198,	155,	109;
+}
+/* ------------------------------------------------------------ *\
   SCSS Functions
 \* ------------------------------------------------------------ */
 /* example usage*/
 /* ------------------------------------------------------------ *\
 	Reset
-\* ------------------------------------------------------------ */
-/* ------------------------------------------------------------ *\
-	Sprite
 \* ------------------------------------------------------------ */
 * {
   padding: 0;
@@ -466,6 +480,253 @@ blockquote:last-child {
   padding-right: 0;
 }
 /* ------------------------------------------------------------ *\
+  build-items
+\* ------------------------------------------------------------ */
+.build-items-container {
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+}
+.build-items {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  padding: 15px;
+  background-color: rgba(72, 72, 72, 0.4);
+  -webkit-box-shadow: 3px 3px 5px #242424;
+          box-shadow: 3px 3px 5px #242424;
+}
+.build-items:not(:last-child) {
+  margin-bottom: 15px;
+}
+.build-items .build-items__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.build-items .build-items__image {
+  margin-right: 10px;
+}
+.build-items .build-items__title {
+  font-size: 24px;
+}
+.build-items[data-class=deathknight] .build-items__title {
+  color: rgb(var(--c-class-dk));
+}
+.build-items[data-class=demonhunter] .build-items__title {
+  color: rgb(var(--c-class-dh));
+}
+.build-items[data-class=druid] .build-items__title {
+  color: rgb(var(--c-class-druid));
+}
+.build-items[data-class=hunter] .build-items__title {
+  color: rgb(var(--c-class-hunter));
+}
+.build-items[data-class=mage] .build-items__title {
+  color: rgb(var(--c-class-mage));
+}
+.build-items[data-class=monk] .build-items__title {
+  color: rgb(var(--c-class-monk));
+}
+.build-items[data-class=paladin] .build-items__title {
+  color: rgb(var(--c-class-paladin));
+}
+.build-items[data-class=priest] .build-items__title {
+  color: rgb(var(--c-class-priest));
+}
+.build-items[data-class=rogue] .build-items__title {
+  color: rgb(var(--c-class-rogue));
+}
+.build-items[data-class=shaman] .build-items__title {
+  color: rgb(var(--c-class-shaman));
+}
+.build-items[data-class=warlock] .build-items__title {
+  color: rgb(var(--c-class-warlock));
+}
+.build-items[data-class=warrior] .build-items__title {
+  color: rgb(var(--c-class-warrior));
+}
+.build-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  position: relative;
+}
+.build-item::after {
+  content: attr(data-type);
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.build-item .build-item__anchor {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.build-item .build-item__image {
+  margin-right: 10px;
+}
+.build-item .build-item__title {
+  font-size: 18px;
+}
+.build-item .build-item__stats,
+.build-item .build-item__author {
+  font-size: 13px;
+}
+.build-item[data-type=F2P] {
+  background-color: rgba(50, 205, 50, 0.1);
+}
+.build-item[data-type=VET] {
+  background-color: rgba(255, 255, 0, 0.1);
+}
+.build-item + .build-item {
+  border-top: solid 1px rgba(255, 255, 255, 0.3);
+}
+/* ------------------------------------------------------------ *\
+  build
+\* ------------------------------------------------------------ */
+.build a[data-wh-icon-size] {
+  text-decoration: none;
+  white-space: nowrap;
+}
+.build .build__head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.build .build__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
+}
+.build .build__col {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: calc(50% - 8px);
+      flex-basis: calc(50% - 8px);
+  max-width: calc(50% - 8px);
+  border: solid 1px #484848;
+  background-color: #282828;
+  padding: 15px;
+  margin-bottom: 16px;
+}
+.build .build__col.build__col--full {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+/* ------------------------------------------------------------ *\
+  builds-filter
+\* ------------------------------------------------------------ */
+.builds-filter {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 6px;
+     -moz-column-gap: 6px;
+          column-gap: 6px;
+}
+.builds-filter input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.builds-filter label {
+  display: block;
+  width: 46px;
+  height: 46px;
+}
+.builds-filter img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: -webkit-filter 0.3s;
+  transition: -webkit-filter 0.3s;
+  -o-transition: filter 0.3s;
+  transition: filter 0.3s;
+  transition: filter 0.3s, -webkit-filter 0.3s;
+}
+.builds-filter input:checked + label img,
+.builds-filter label:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.builds-filter .builds-filter__title {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.builds-filter .builds-filter__actions {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.builds-filter .builds-filter__btn {
+  --color: transparent;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color);
+  text-decoration: none;
+  white-space: no-wrap;
+  display: block;
+  min-width: 100px;
+  padding: 0 5px;
+  border: solid 2px var(--color);
+}
+.builds-filter .builds-filter__btn[data-checked=true] {
+  --color: limegreen;
+}
+.builds-filter .builds-filter__btn[data-checked=false] {
+  --color: red;
+}
+/* ------------------------------------------------------------ *\
   category
 \* ------------------------------------------------------------ */
 .categories {
@@ -557,6 +818,14 @@ blockquote:last-child {
 	Footer
 \* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ *\
+  go-back
+\* ------------------------------------------------------------ */
+.go-back {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+/* ------------------------------------------------------------ *\
 	Grid
 \* ------------------------------------------------------------ */
 .grid {
@@ -567,6 +836,7 @@ blockquote:last-child {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  margin: 0 -10px;
   /*  Grid col 1of2  */
   /*  Grid col 1of3  */
 }
@@ -581,6 +851,7 @@ blockquote:last-child {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
+  padding: 0 10px;
 }
 .grid .grid__col--1of3 {
   max-width: calc(100% / 3);
@@ -634,6 +905,17 @@ blockquote:last-child {
 /* ------------------------------------------------------------ *\
 	Icons
 \* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ *\
+  kofi-widget
+\* ------------------------------------------------------------ */
+body .floatingchat-container-wrap,
+body .floatingchat-container-wrap-mobi {
+  max-width: 230px;
+}
+body .floatingchat-container-wrap iframe,
+body .floatingchat-container-wrap-mobi iframe {
+  width: 230px;
+}
 /* ------------------------------------------------------------ *\
   legend
 \* ------------------------------------------------------------ */
