@@ -7412,6 +7412,22 @@ var armor = [{
       source: '[Pandaria BoE]',
       rarity: 3,
       note: 'Farmable on lvl 22.'
+    }, {
+      name: "Gorrog's Serene Gaze",
+      wowheadURL: 'https://www.wowhead.com/item=141575/gorrogs-serene-gaze?ilvl=28',
+      stats: {
+        sockets: "1 (proc)",
+        armor: 12,
+        stamina: 11,
+        mainStat: 7,
+        critical: 4,
+        haste: 0,
+        mastery: 10,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Good with socket.'
     }]
   }, {
     name: 'Shoulders',
@@ -7462,6 +7478,21 @@ var armor = [{
         versatility: 0
       },
       source: 'https://www.wowhead.com/npc=17882|The Black Stalker@The Underbog',
+      rarity: 1
+    }, {
+      name: 'Vest of Living Lightning',
+      wowheadURL: 'https://www.wowhead.com/item=24357/vest-of-living-lightning?ilvl=25',
+      stats: {
+        sockets: 3,
+        armor: 14,
+        stamina: 10,
+        mainStat: "7 int<br>6 agi",
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 6
+      },
+      source: 'https://www.wowhead.com/npc=17941|Mennu the Betrayer@The Slave Pens',
       rarity: 1
     }]
   }, {
@@ -8343,11 +8374,27 @@ var armor = [{
       },
       source: '[Outland dungeon BoE]',
       rarity: 3,
-      note: 'Farmable on lvl 17. Only good with set bonus.'
+      note: 'Only good with set bonus.'
     }]
   }, {
     name: 'Back',
     items: [{
+      name: 'Quillstitch Greatcloak',
+      wowheadURL: 'https://www.wowhead.com/item=158583/quillstitch-greatcloak?ilvl=25',
+      stats: {
+        sockets: "1 (proc)",
+        armor: 4,
+        stamina: 5,
+        mainStat: 4,
+        critical: 5,
+        haste: 0,
+        mastery: 3,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=125453|Quillrat Matriarch@Drustvar',
+      rarity: 1,
+      note: 'One time drop.'
+    }, {
       name: 'Parrotfeather Cloak',
       wowheadURL: 'https://www.wowhead.com/item=155884?ilvl=25',
       stats: {
@@ -8930,7 +8977,7 @@ var armor = [{
       },
       source: '[Outland dungeon BoE]',
       rarity: 3,
-      note: 'Farmable at lvl 17. Only good with set bonus.'
+      note: 'Only good with set bonus.'
     }]
   }]
 }];
