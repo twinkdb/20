@@ -7084,22 +7084,6 @@ var armor = [{
       source: 'https://www.wowhead.com/quest=29641@Shadow Labyrinth',
       rarity: 1
     }, {
-      name: 'Ogom\'s Manacles',
-      wowheadURL: 'https://www.wowhead.com/item=119366?ilvl=25',
-      stats: {
-        sockets: '1 (proc)',
-        armor: 5,
-        stamina: 5,
-        mainStat: 4,
-        critical: 0,
-        haste: 0,
-        mastery: 4,
-        versatility: 3
-      },
-      source: 'https://www.wowhead.com/npc=87622|Ogom the Mangler@Frostfire Ridge',
-      rarity: 2,
-      note: 'Socket proc chance is ~5%. Drops loot once a day.'
-    }, {
       name: 'Ranja-Hide Bracers',
       wowheadURL: 'https://www.wowhead.com/item=154478?ilvl=25',
       stats: {
