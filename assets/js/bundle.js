@@ -5215,7 +5215,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=107658?ilvl=25',
     stats: {
       sockets: 0,
-      damage: '11 - 22',
+      damage: '11 - 22 (4.6 DPS)',
       stamina: 10,
       mainStat: 6,
       critical: 0,
@@ -5231,7 +5231,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=27986?ilvl=25',
     stats: {
       sockets: 3,
-      damage: '10 - 23',
+      damage: '10 - 23 (4.6 DPS)',
       stamina: 12,
       mainStat: 6,
       critical: 10,
@@ -5246,7 +5246,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=9477?ilvl=25',
     stats: {
       sockets: 0,
-      damage: '14 - 19',
+      damage: '14 - 19 (4.6 DPS)',
       stamina: 10,
       mainStat: 6,
       critical: 0,
@@ -5261,7 +5261,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=13505?ilvl=26',
     stats: {
       sockets: 0,
-      damage: '13 - 22',
+      damage: '13 - 22 (4.9 DPS)',
       stamina: 10,
       mainStat: 7,
       critical: 0,
@@ -5277,7 +5277,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=9372?ilvl=26',
     stats: {
       sockets: 0,
-      damage: '13 - 22',
+      damage: '13 - 22 (4.9 DPS)',
       stamina: 10,
       mainStat: 7,
       critical: 0,
@@ -5293,7 +5293,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=791?ilvl=27',
     stats: {
       sockets: 0,
-      damage: '15 - 21',
+      damage: '15 - 21 (5 DPS)',
       stamina: 5,
       mainStat: 7,
       critical: 0,
@@ -5308,7 +5308,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=2877&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '13 - 23',
+      damage: '13 - 23 (5 DPS)',
       stamina: 7,
       mainStat: 7,
       critical: 0,
@@ -5323,7 +5323,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=13058&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '12 - 24',
+      damage: '12 - 24 (5 DPS)',
       stamina: 10,
       mainStat: 7,
       critical: 0,
@@ -5338,7 +5338,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=87420&ilvl=28',
     stats: {
       sockets: 0,
-      damage: '13 - 25',
+      damage: '13 - 25 (5.3 DPS)',
       stamina: 11,
       mainStat: 7,
       critical: 7,
@@ -5357,7 +5357,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=160449&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '7 - 11',
+      damage: '7 - 11 (3.5 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 0,
@@ -5373,7 +5373,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=156998&ilvl=24',
     stats: {
       sockets: 0,
-      damage: '10 - 13(3.6)',
+      damage: '10 - 13 (3.2 DPS)',
       stamina: 4,
       mainStat: 3,
       critical: 0,
@@ -5389,7 +5389,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=156999&ilvl=25',
     stats: {
       sockets: 0,
-      damage: '11 - 14(3.6)',
+      damage: '11 - 14 (3.5 DPS)',
       stamina: 2,
       mainStat: 3,
       critical: 6,
@@ -5405,7 +5405,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=27901&ilvl=25',
     stats: {
       sockets: 2,
-      damage: '8 - 10',
+      damage: '8 - 10 (3.5 DPS)',
       stamina: 0,
       mainStat: 4,
       critical: 0,
@@ -5420,7 +5420,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=27846&ilvl=25',
     stats: {
       sockets: 2,
-      damage: '7 - 11',
+      damage: '7 - 11 (3.5 DPS)',
       stamina: 0,
       mainStat: 3,
       critical: 5,
@@ -5435,7 +5435,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=29348&ilvl=25',
     stats: {
       sockets: 0,
-      damage: '7 - 11',
+      damage: '7 - 11 (3.5 DPS)',
       stamina: 0,
       mainStat: 0,
       critical: 0,
@@ -5450,11 +5450,11 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=10847&ilvl=26',
     stats: {
       sockets: 0,
-      damage: '7 - 12',
+      damage: '7 - 12 (3.7 DPS)',
       stamina: 5,
       mainStat: 3,
-      critical: 0,
-      haste: 0,
+      critical: 3,
+      haste: 3,
       mastery: 0,
       versatility: 0
     },
@@ -5465,7 +5465,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=11684&ilvl=26',
     stats: {
       sockets: 0,
-      damage: '8 - 11',
+      damage: '8 - 11 (3.7 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 3,
@@ -5480,7 +5480,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=160269&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '7 - 11',
+      damage: '7 - 11 (3.5 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 0,
@@ -5495,7 +5495,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=119400&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '8 - 10',
+      damage: '8 - 10 (3.5 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 0,
@@ -5511,7 +5511,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=9485&ilvl=25',
     stats: {
       sockets: 0,
-      damage: '5 - 12',
+      damage: '5 - 12 (3.3 DPS)',
       stamina: 0,
       mainStat: 0,
       critical: 0,
@@ -5530,7 +5530,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=160451&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '4 - 8',
+      damage: '4 - 8 (3.3 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 4,
@@ -5546,7 +5546,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=159518&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '4 - 8',
+      damage: '4 - 8 (3.3 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 0,
@@ -5562,7 +5562,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=10761&ilvl=25',
     stats: {
       sockets: 0,
-      damage: '4 - 8',
+      damage: '4 - 8 (3.3 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 0,
@@ -5578,7 +5578,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=158323&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '4 - 8',
+      damage: '4 - 8 (3.3 DPS)',
       stamina: 5,
       mainStat: 3,
       critical: 0,
@@ -5593,7 +5593,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=24222&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '5 - 9',
+      damage: '5 - 9 (3.9 DPS)',
       stamina: 4,
       mainStat: 3,
       critical: 0,
@@ -5608,7 +5608,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=37802&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '5 - 9',
+      damage: '5 - 9 (3.9 DPS)',
       stamina: 4,
       mainStat: 3,
       critical: 4,
@@ -5623,7 +5623,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=4091&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '5 - 9',
+      damage: '5 - 9 (3.9 DPS)',
       stamina: 0,
       mainStat: 5,
       critical: 0,
@@ -5638,10 +5638,10 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=31305&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '5 - 9',
+      damage: '5 - 9 (3.9 DPS)',
       stamina: 3,
       mainStat: 3,
-      critical: 5,
+      critical: 6,
       haste: 0,
       mastery: 0,
       versatility: 0
@@ -5653,7 +5653,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=31331&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '5 - 9',
+      damage: '5 - 9 (3.9 DPS)',
       stamina: 0,
       mainStat: 0,
       critical: 0,
@@ -5661,9 +5661,23 @@ var weapons = [{
       mastery: 0,
       versatility: 0
     },
-    source: '[Outland dungeon BoE]',
-    rarity: 3,
-    note: 'Super rare. Only 1 confirmed drop. Easily the BiS rogue dagger.'
+    source: '[Outland pickpocket lockbox]',
+    rarity: 3
+  }, {
+    name: 'The Dusk Blade',
+    wowheadURL: 'https://www.wowhead.com/item=43613&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '5 - 9 (3.9 DPS)',
+      stamina: 0,
+      mainStat: 0,
+      critical: 0,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Northrend pickpocket lockbox]',
+    rarity: 3
   }]
 }, {
   name: 'Ranged',
@@ -5672,7 +5686,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=154411&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '14 - 14 (3.00)',
+      damage: '14 - 14 (4.7 DPS)',
       stamina: 10,
       mainStat: 6,
       critical: 6,
@@ -5688,7 +5702,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=118713&ilvl=25',
     stats: {
       sockets: 0,
-      damage: '11 - 17 (3.00)',
+      damage: '11 - 17 (4.7 DPS)',
       stamina: 10,
       mainStat: 6,
       critical: 0,
@@ -5704,7 +5718,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=39487&ilvl=25',
     stats: {
       sockets: 0,
-      damage: '11 - 16 (3.0)',
+      damage: '11 - 16 (4.5 DPS)',
       stamina: 10,
       mainStat: 6,
       critical: 12,
@@ -5720,7 +5734,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=39829&ilvl=24',
     stats: {
       sockets: 0,
-      damage: '11 - 15',
+      damage: '11 - 15 (4.3 DPS)',
       stamina: 0,
       mainStat: 11,
       critical: 13,
@@ -5736,9 +5750,9 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=27640&ilvl=24',
     stats: {
       sockets: 0,
-      damage: '11 - 17 (3.0)',
-      stamina: 12,
-      mainStat: 12,
+      damage: '10 - 16 (4.3 DPS)',
+      stamina: 11,
+      mainStat: 11,
       critical: 0,
       haste: 0,
       mastery: 0,
@@ -5752,7 +5766,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=158711&ilvl=25',
     stats: {
       sockets: '1 (proc)',
-      damage: '11 - 16 (3.00)',
+      damage: '11 - 16 (4.5 DPS)',
       stamina: 10,
       mainStat: 6,
       critical: 5,
@@ -5763,26 +5777,11 @@ var weapons = [{
     source: 'https://www.wowhead.com/npc=122963|Rezan@Atal\'Dazar',
     rarity: 2
   }, {
-    name: 'Precisely Calibrated Boomstick',
-    wowheadURL: 'https://www.wowhead.com/item=2100&ilvl=27',
-    stats: {
-      sockets: 0,
-      damage: '11 - 21 (3.00)',
-      stamina: 0,
-      mainStat: 18,
-      critical: 0,
-      haste: 0,
-      mastery: 0,
-      versatility: 0
-    },
-    source: '[Classic BoE]',
-    rarity: 3
-  }, {
     name: 'Needle Threader',
     wowheadURL: 'https://www.wowhead.com/item=13021&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '12 - 17',
+      damage: '12 - 17 (4.8 DPS)',
       stamina: 10,
       mainStat: 7,
       critical: 0,
@@ -5797,7 +5796,7 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=13039&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '12 - 18',
+      damage: '12 - 18 (5 DPS)',
       stamina: 0,
       mainStat: 7,
       critical: 15,
@@ -5812,10 +5811,41 @@ var weapons = [{
     wowheadURL: 'https://www.wowhead.com/item=13139&ilvl=27',
     stats: {
       sockets: 0,
-      damage: '10 - 20 (3.00)',
+      damage: '10 - 20 (5 DPS)',
       stamina: 0,
       mainStat: 12,
       critical: 7,
+      haste: 0,
+      mastery: 0,
+      versatility: 0
+    },
+    source: '[Classic BoE]',
+    rarity: 3
+  }, {
+    name: "Penate's Penance-Procuring Pistol",
+    wowheadURL: 'https://www.wowhead.com/item=87477&ilvl=28',
+    stats: {
+      sockets: 0,
+      damage: '11 - 20 (5.2 DPS)',
+      stamina: 11,
+      mainStat: 7,
+      critical: 0,
+      haste: 6,
+      mastery: 8,
+      versatility: 0
+    },
+    source: '[Pandaria BoE]',
+    rarity: 3,
+    note: "Farmable on lvl 21-22 for ilvl 28. Level 20 drops ilvl 26."
+  }, {
+    name: 'Precisely Calibrated Boomstick',
+    wowheadURL: 'https://www.wowhead.com/item=2100&ilvl=27',
+    stats: {
+      sockets: 0,
+      damage: '10 - 20 (5 DPS)',
+      stamina: 0,
+      mainStat: 17,
+      critical: 0,
       haste: 0,
       mastery: 0,
       versatility: 0
@@ -6476,6 +6506,22 @@ var armor = [{
   slots: [{
     name: 'Head',
     items: [{
+      name: 'Cenarion Thicket Circlet',
+      wowheadURL: 'https://www.wowhead.com/item=25931?ilvl=24',
+      stats: {
+        sockets: 3,
+        armor: 4,
+        stamina: 11,
+        mainStat: 6,
+        critical: 6,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=10005@Terokkar Forest',
+      rarity: 1,
+      note: 'Can proc blue/purple.'
+    }, {
       name: 'Circle of Flame',
       wowheadURL: 'https://www.wowhead.com/item=11808?ilvl=26',
       stats: {
@@ -6507,22 +6553,6 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=19220|Pathaleon the Calculator@The Mechanar',
       rarity: 1
     }, {
-      name: 'Cenarion Thicket Circlet',
-      wowheadURL: 'https://www.wowhead.com/item=25931?ilvl=24',
-      stats: {
-        sockets: 3,
-        armor: 4,
-        stamina: 11,
-        mainStat: 6,
-        critical: 6,
-        haste: 0,
-        mastery: 0,
-        versatility: 0
-      },
-      source: 'https://www.wowhead.com/quest=10005@Terokkar Forest',
-      rarity: 1,
-      note: 'Can proc blue/purple.'
-    }, {
       name: 'Energized Retinal Armor',
       wowheadURL: 'https://www.wowhead.com/item=77537?ilvl=19',
       stats: {
@@ -6538,10 +6568,42 @@ var armor = [{
       source: 'https://www.wowhead.com/spell=127121',
       rarity: 2,
       note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
+    }, {
+      name: 'Hood of Alchemical Vapors',
+      wowheadURL: 'https://www.wowhead.com/item=87450?ilvl=28',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 5,
+        stamina: 11,
+        mainStat: 5,
+        critical: 0,
+        haste: 5,
+        mastery: 6,
+        versatility: 0
+      },
+      source: '[Pandaria BoE]',
+      rarity: 3,
+      note: 'Farmable on lvl 21-22 for ilvl 28. Level 20 drops ilvl 26.'
     }]
   }, {
     name: 'Shoulders',
     items: [{
+      name: 'Terrorcloth Mantle',
+      wowheadURL: 'https://www.wowhead.com/item=25925?ilvl=24',
+      stats: {
+        sockets: 2,
+        armor: 4,
+        stamina: 7,
+        mainStat: 4,
+        critical: 1,
+        haste: 0,
+        mastery: 0,
+        versatility: 6
+      },
+      source: 'https://www.wowhead.com/quest=9902@Zangarmarsh',
+      rarity: 1,
+      note: 'Can proc blue/purple. Slightly inferior to Hallowed but way easier to get.'
+    }, {
       name: 'Hallowed Pauldrons',
       wowheadURL: 'https://www.wowhead.com/item=27775?ilvl=25',
       stats: {
@@ -6571,28 +6633,44 @@ var armor = [{
         versatility: 0
       },
       source: 'https://www.wowhead.com/npc=17942|Quagmirran@The Slave Pens',
-      rarity: 2,
-      note: 'Only useful for the 2-piece set bonus. Otherwise Hallowed Pauldrons are better.'
-    }, {
-      name: 'Terrorcloth Mantle',
-      wowheadURL: 'https://www.wowhead.com/item=25925?ilvl=24',
-      stats: {
-        sockets: 2,
-        armor: 4,
-        stamina: 7,
-        mainStat: 4,
-        critical: 1,
-        haste: 0,
-        mastery: 0,
-        versatility: 6
-      },
-      source: 'https://www.wowhead.com/quest=9902@Zangarmarsh',
       rarity: 1,
-      note: 'Can proc blue/purple. Slightly inferior to Hallowed but way easier to get.'
+      note: 'Only useful for the 2-piece set bonus. Otherwise Hallowed Pauldrons are better.'
     }]
   }, {
     name: 'Chest',
     items: [{
+      name: 'Chemise of Rebirth',
+      wowheadURL: 'https://www.wowhead.com/item=31657?ilvl=24',
+      stats: {
+        sockets: 3,
+        armor: 5,
+        stamina: 9,
+        mainStat: 7,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
+      rarity: 1,
+      note: 'Very good if proc purple.'
+    }, {
+      name: 'Raiments of Divine Authority',
+      wowheadURL: 'https://www.wowhead.com/item=24397?ilvl=25',
+      stats: {
+        sockets: 3,
+        armor: 6,
+        stamina: 12,
+        mainStat: 6,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 6
+      },
+      source: 'https://www.wowhead.com/npc=17377|Keli\'dan the Breaker@The Blood Furnace',
+      rarity: 1,
+      note: 'Hallowed and Incanter are better but you can queue Blood Furnace from the dungeon finder.'
+    }, {
       name: 'Hallowed Pauldrons',
       wowheadURL: 'https://www.wowhead.com/item=28230?ilvl=25',
       stats: {
@@ -6638,38 +6716,6 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=18096|Epoch Hunter@Old Hilsbrad Foothills',
       rarity: 2,
       note: 'Useful for the 2-piece bonus.'
-    }, {
-      name: 'Raiments of Divine Authority',
-      wowheadURL: 'https://www.wowhead.com/item=24397?ilvl=25',
-      stats: {
-        sockets: 3,
-        armor: 6,
-        stamina: 12,
-        mainStat: 6,
-        critical: 0,
-        haste: 0,
-        mastery: 0,
-        versatility: 6
-      },
-      source: 'https://www.wowhead.com/npc=17377|Keli\'dan the Breaker@The Blood Furnace',
-      rarity: 1,
-      note: 'Hallowed and Incanter are better but you can queue Blood Furnace from the dungeon finder.'
-    }, {
-      name: 'Chemise of Rebirth',
-      wowheadURL: 'https://www.wowhead.com/item=31657?ilvl=24',
-      stats: {
-        sockets: 3,
-        armor: 5,
-        stamina: 9,
-        mainStat: 7,
-        critical: 0,
-        haste: 0,
-        mastery: 0,
-        versatility: 5
-      },
-      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
-      rarity: 1,
-      note: 'Very good if proc purple.'
     }]
   }, {
     name: 'Wrist',
@@ -6722,6 +6768,22 @@ var armor = [{
   }, {
     name: 'Hands',
     items: [{
+      name: 'Tempest\'s Touch',
+      wowheadURL: 'https://www.wowhead.com/item=29317?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 3,
+        stamina: 7,
+        mainStat: 5,
+        critical: 4,
+        haste: 0,
+        mastery: 0,
+        versatility: 2
+      },
+      source: 'https://www.wowhead.com/quest=29599@Old Hilsbrad Foothills',
+      rarity: 1,
+      note: 'Can proc purple.'
+    }, {
       name: 'Bloody Surgeon\'s Mitts',
       wowheadURL: 'https://www.wowhead.com/item=24393?ilvl=25',
       stats: {
@@ -6767,41 +6829,10 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=17308|Omor the Unscarred@Hellfire Ramparts',
       rarity: 1,
       note: 'Only good with the 2-piece set bonus.'
-    }, {
-      name: 'Tempest\'s Touch',
-      wowheadURL: 'https://www.wowhead.com/item=29317?ilvl=25',
-      stats: {
-        sockets: 2,
-        armor: 3,
-        stamina: 7,
-        mainStat: 5,
-        critical: 4,
-        haste: 0,
-        mastery: 0,
-        versatility: 2
-      },
-      source: 'https://www.wowhead.com/quest=29599@Old Hilsbrad Foothills',
-      rarity: 1,
-      note: 'Can proc purple.'
     }]
   }, {
     name: 'Waist',
     items: [{
-      name: 'Mindfire Waistband',
-      wowheadURL: 'https://www.wowhead.com/item=24395?ilvl=25',
-      stats: {
-        sockets: 2,
-        armor: 3,
-        stamina: 7,
-        mainStat: 5,
-        critical: 4,
-        haste: 0,
-        mastery: 0,
-        versatility: 4
-      },
-      source: 'https://www.wowhead.com/npc=17377|Keli\'dan the Breaker@The Blood Furnace',
-      rarity: 1
-    }, {
       name: 'Gholamcloth Wrap',
       wowheadURL: 'https://www.wowhead.com/item=35929?ilvl=24',
       stats: {
@@ -6817,10 +6848,41 @@ var armor = [{
       source: 'https://www.wowhead.com/quest=11284@Howling Fjord',
       rarity: 1,
       note: 'Can proc blue/purple making it a very good item.'
+    }, {
+      name: 'Mindfire Waistband',
+      wowheadURL: 'https://www.wowhead.com/item=24395?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 3,
+        stamina: 7,
+        mainStat: 5,
+        critical: 4,
+        haste: 0,
+        mastery: 0,
+        versatility: 4
+      },
+      source: 'https://www.wowhead.com/npc=17377|Keli\'dan the Breaker@The Blood Furnace',
+      rarity: 1
     }]
   }, {
     name: 'Legs',
     items: [{
+      name: 'Aran\'s Sorcerous Slacks',
+      wowheadURL: 'https://www.wowhead.com/item=28212?ilvl=25',
+      stats: {
+        sockets: 3,
+        armor: 5,
+        stamina: 10,
+        mainStat: 7,
+        critical: 6,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=17848|Lieutenant Drake@Old Hilsbrad Foothills',
+      rarity: 1,
+      note: 'Only good for crit/haste and full crit builds. Don\'t put versatility gems it\'s not worth it - use Pontifex instead.'
+    }, {
       name: 'Pontiff\'s Pantaloons of Prophecy',
       wowheadURL: 'https://www.wowhead.com/item=28218?ilvl=25',
       stats: {
@@ -6850,41 +6912,10 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=17798|Warlord Kalithresh@The Steam Vault',
       rarity: 1
-    }, {
-      name: 'Aran\'s Sorcerous Slacks',
-      wowheadURL: 'https://www.wowhead.com/item=28212?ilvl=25',
-      stats: {
-        sockets: 3,
-        armor: 5,
-        stamina: 10,
-        mainStat: 7,
-        critical: 6,
-        haste: 0,
-        mastery: 0,
-        versatility: 0
-      },
-      source: 'https://www.wowhead.com/npc=17848|Lieutenant Drake@Old Hilsbrad Foothills',
-      rarity: 1,
-      note: 'Only good for crit/haste and full crit builds. Don\'t put versatility gems it\'s not worth it - use Pontifex instead.'
     }]
   }, {
     name: 'Feet',
     items: [{
-      name: 'Slippers of Serenity',
-      wowheadURL: 'https://www.wowhead.com/item=27411?ilvl=25',
-      stats: {
-        sockets: 2,
-        armor: 5,
-        stamina: 7,
-        mainStat: 5,
-        critical: 0,
-        haste: 0,
-        mastery: 0,
-        versatility: 5
-      },
-      source: 'https://www.wowhead.com/npc=18373|Exarch Maladaar@Auchenai Crypts',
-      rarity: 1
-    }, {
       name: 'Ro\'gor\'s Slippers of Silence',
       wowheadURL: 'https://www.wowhead.com/item=119228?ilvl=25',
       stats: {
@@ -6900,6 +6931,21 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=86579|Blademaster Ro\'gor@Gorgrond',
       rarity: 2,
       note: 'Socket proc chance is ~5%. Drops loot once a day.'
+    }, {
+      name: 'Slippers of Serenity',
+      wowheadURL: 'https://www.wowhead.com/item=27411?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 5,
+        stamina: 7,
+        mainStat: 5,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/npc=18373|Exarch Maladaar@Auchenai Crypts',
+      rarity: 1
     }]
   }]
 }, {
@@ -6907,6 +6953,22 @@ var armor = [{
   slots: [{
     name: 'Head',
     items: [{
+      name: 'Scout\'s Hood',
+      wowheadURL: 'https://www.wowhead.com/item=31658?ilvl=24',
+      stats: {
+        sockets: 3,
+        armor: 7,
+        stamina: 9,
+        mainStat: 7,
+        critical: 5,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
+      rarity: 1,
+      note: 'Good if proc purple.'
+    }, {
       name: 'Raven-Heart Headdress',
       wowheadURL: 'https://www.wowhead.com/item=27409?ilvl=25',
       stats: {
@@ -6938,39 +7000,39 @@ var armor = [{
       rarity: 2,
       note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
     }, {
-      name: 'Scout\'s Hood',
-      wowheadURL: 'https://www.wowhead.com/item=31658?ilvl=24',
+      name: "Zom's Misty Hood",
+      wowheadURL: 'https://www.wowhead.com/item=87452?ilvl=28',
       stats: {
-        sockets: 3,
-        armor: 7,
-        stamina: 9,
+        sockets: 'Meta + 1',
+        armor: 8,
+        stamina: 11,
         mainStat: 7,
-        critical: 5,
-        haste: 0,
-        mastery: 0,
+        critical: 0,
+        haste: 5,
+        mastery: 6,
         versatility: 0
       },
-      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
-      rarity: 1,
-      note: 'Good if proc purple.'
+      source: '[Pandaria BoE]',
+      rarity: 3,
+      note: 'ilvl 28 farmable on lvl 22, ilvl 26 - on 20'
     }]
   }, {
     name: 'Shoulders',
     items: [{
-      name: 'Mantle of Perenolde',
-      wowheadURL: 'https://www.wowhead.com/item=27434?ilvl=25',
+      name: 'Ravenwing Pauldron',
+      wowheadURL: 'https://www.wowhead.com/item=27417?ilvl=25',
       stats: {
         sockets: 2,
         armor: 7,
         stamina: 7,
-        mainStat: 5,
-        critical: 7,
-        haste: 7,
+        mainStat: '5 agi<br>6 int',
+        critical: 0,
+        haste: 4,
         mastery: 0,
-        versatility: 0
+        versatility: 4
       },
-      source: 'https://www.wowhead.com/npc=18096|Epoch Hunter@Old Hilsbrad Foothills',
-      rarity: 2
+      source: 'https://www.wowhead.com/npc=17848|Lieutenant Drake@Old Hilsbrad Foothills',
+      rarity: 1
     }, {
       name: 'Moonglade Shoulders',
       wowheadURL: 'https://www.wowhead.com/item=27737?ilvl=25',
@@ -6987,39 +7049,24 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=17798|Warlord Kalithresh@The Steam Vault',
       rarity: 1
     }, {
-      name: 'Ravenwing Pauldron',
-      wowheadURL: 'https://www.wowhead.com/item=27417?ilvl=25',
+      name: 'Mantle of Perenolde',
+      wowheadURL: 'https://www.wowhead.com/item=27434?ilvl=25',
       stats: {
         sockets: 2,
         armor: 7,
         stamina: 7,
-        mainStat: '5 agi<br>6 int',
-        critical: 0,
-        haste: 4,
+        mainStat: 5,
+        critical: 7,
+        haste: 7,
         mastery: 0,
-        versatility: 4
+        versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=17848|Lieutenant Drake@Old Hilsbrad Foothills',
-      rarity: 1
+      source: 'https://www.wowhead.com/npc=18096|Epoch Hunter@Old Hilsbrad Foothills',
+      rarity: 2
     }]
   }, {
     name: 'Chest',
     items: [{
-      name: 'Moonglade Robe',
-      wowheadURL: 'https://www.wowhead.com/item=28202?ilvl=25',
-      stats: {
-        sockets: 3,
-        armor: 10,
-        stamina: 10,
-        mainStat: 6,
-        critical: 5,
-        haste: 0,
-        mastery: 0,
-        versatility: 7
-      },
-      source: 'https://www.wowhead.com/npc=19221|Nethermancer Sepethrea@The Mechanar',
-      rarity: 1
-    }, {
       name: 'Auchenai Monk\'s Tunic',
       wowheadURL: 'https://www.wowhead.com/item=29340?ilvl=25',
       stats: {
@@ -7035,39 +7082,40 @@ var armor = [{
       source: 'https://www.wowhead.com/quest=29596@Auchenai Crypts',
       rarity: 1,
       note: 'Moonglade Robe is better but this is a quest reward.'
+    }, {
+      name: 'Moonglade Robe',
+      wowheadURL: 'https://www.wowhead.com/item=28202?ilvl=25',
+      stats: {
+        sockets: 3,
+        armor: 10,
+        stamina: 10,
+        mainStat: 6,
+        critical: 5,
+        haste: 0,
+        mastery: 0,
+        versatility: 7
+      },
+      source: 'https://www.wowhead.com/npc=19221|Nethermancer Sepethrea@The Mechanar',
+      rarity: 1
     }]
   }, {
     name: 'Wrist',
     items: [{
-      name: 'Sea Dog\'s Cuffs',
-      wowheadURL: 'https://www.wowhead.com/item=158305?ilvl=25',
+      name: 'Ranja-Hide Bracers',
+      wowheadURL: 'https://www.wowhead.com/item=154478?ilvl=25',
       stats: {
         sockets: '1 (proc)',
         armor: 5,
         stamina: 5,
         mainStat: 4,
-        critical: 0,
-        haste: 3,
-        mastery: 0,
-        versatility: 4
-      },
-      source: 'https://www.wowhead.com/npc=126969|Trothak@Freehold',
-      rarity: 2
-    }, {
-      name: 'Venerated Raptorhide Bindings',
-      wowheadURL: 'https://www.wowhead.com/item=160214?ilvl=25',
-      stats: {
-        sockets: '1 (proc)',
-        armor: 5,
-        stamina: 5,
-        mainStat: 4,
-        critical: 3,
+        critical: 4,
         haste: 0,
-        mastery: 0,
-        versatility: 4
+        mastery: 3,
+        versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=122963|Rezan@Atal\'Dazar',
-      rarity: 2
+      source: 'https://www.wowhead.com/npc=139278|Ranja@Tiragarde Sound',
+      rarity: 1,
+      note: 'You can only loot this once.'
     }, {
       name: 'Spymistress\' Wristguards',
       wowheadURL: 'https://www.wowhead.com/item=28171?ilvl=25',
@@ -7084,21 +7132,35 @@ var armor = [{
       source: 'https://www.wowhead.com/quest=29641@Shadow Labyrinth',
       rarity: 1
     }, {
-      name: 'Ranja-Hide Bracers',
-      wowheadURL: 'https://www.wowhead.com/item=154478?ilvl=25',
+      name: 'Venerated Raptorhide Bindings',
+      wowheadURL: 'https://www.wowhead.com/item=160214?ilvl=25',
       stats: {
         sockets: '1 (proc)',
         armor: 5,
         stamina: 5,
         mainStat: 4,
-        critical: 4,
+        critical: 3,
         haste: 0,
-        mastery: 3,
-        versatility: 0
+        mastery: 0,
+        versatility: 4
       },
-      source: 'https://www.wowhead.com/npc=139278|Ranja@Tiragarde Sound',
-      rarity: 1,
-      note: 'You can only loot this once.'
+      source: 'https://www.wowhead.com/npc=122963|Rezan@Atal\'Dazar',
+      rarity: 2
+    }, {
+      name: 'Sea Dog\'s Cuffs',
+      wowheadURL: 'https://www.wowhead.com/item=158305?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 5,
+        stamina: 5,
+        mainStat: 4,
+        critical: 0,
+        haste: 3,
+        mastery: 0,
+        versatility: 4
+      },
+      source: 'https://www.wowhead.com/npc=126969|Trothak@Freehold',
+      rarity: 2
     }]
   }, {
     name: 'Hands',
@@ -7234,20 +7296,21 @@ var armor = [{
   }, {
     name: 'Feet',
     items: [{
-      name: 'Boots of the Shifting Sands',
-      wowheadURL: 'https://www.wowhead.com/item=28339?ilvl=25',
+      name: 'Temptessa\'s Knee-High Boots',
+      wowheadURL: 'https://www.wowhead.com/item=119360?ilvl=25',
       stats: {
-        sockets: 2,
+        sockets: '1 (proc)',
         armor: 6,
         stamina: 7,
         mainStat: 5,
-        critical: 6,
+        critical: 5,
         haste: 0,
-        mastery: 0,
+        mastery: 5,
         versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=17980|Laj@The Botanica',
-      rarity: 1
+      source: 'https://www.wowhead.com/npc=85121|Lady Temptessa@Shadowmoon Valley',
+      rarity: 2,
+      note: 'Socket proc chance is ~5%. Drops loot once a day.'
     }, {
       name: 'Boots of Transformation',
       wowheadURL: 'https://www.wowhead.com/item=37640?ilvl=25',
@@ -7264,21 +7327,20 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=29306|Gal\'darah@Gundrak',
       rarity: 1
     }, {
-      name: 'Temptessa\'s Knee-High Boots',
-      wowheadURL: 'https://www.wowhead.com/item=119360?ilvl=25',
+      name: 'Boots of the Shifting Sands',
+      wowheadURL: 'https://www.wowhead.com/item=28339?ilvl=25',
       stats: {
-        sockets: '1 (proc)',
+        sockets: 2,
         armor: 6,
         stamina: 7,
         mainStat: 5,
-        critical: 5,
+        critical: 6,
         haste: 0,
-        mastery: 5,
+        mastery: 0,
         versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=85121|Lady Temptessa@Shadowmoon Valley',
-      rarity: 2,
-      note: 'Socket proc chance is ~5%. Drops loot once a day.'
+      source: 'https://www.wowhead.com/npc=17980|Laj@The Botanica',
+      rarity: 1
     }]
   }]
 }, {
@@ -7434,20 +7496,20 @@ var armor = [{
   }, {
     name: 'Chest',
     items: [{
-      name: 'Hauberk of Desolation',
-      wowheadURL: 'https://www.wowhead.com/item=28401?ilvl=25',
+      name: 'Vest of Living Lightning',
+      wowheadURL: 'https://www.wowhead.com/item=24357/vest-of-living-lightning?ilvl=25',
       stats: {
         sockets: 3,
         armor: 14,
         stamina: 10,
-        mainStat: 6,
-        critical: 6,
-        haste: 7,
+        mainStat: "7 int<br>6 agi",
+        critical: 0,
+        haste: 0,
         mastery: 0,
-        versatility: 0
+        versatility: 6
       },
-      source: 'https://www.wowhead.com/npc=18096|Epoch Hunter@Old Hilsbrad Foothills',
-      rarity: 2
+      source: 'https://www.wowhead.com/npc=17941|Mennu the Betrayer@The Slave Pens',
+      rarity: 1
     }, {
       name: 'Shamblehide Chestguard',
       wowheadURL: 'https://www.wowhead.com/item=24465?ilvl=25',
@@ -7464,38 +7526,39 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=17882|The Black Stalker@The Underbog',
       rarity: 1
     }, {
-      name: 'Vest of Living Lightning',
-      wowheadURL: 'https://www.wowhead.com/item=24357/vest-of-living-lightning?ilvl=25',
+      name: 'Hauberk of Desolation',
+      wowheadURL: 'https://www.wowhead.com/item=28401?ilvl=25',
       stats: {
         sockets: 3,
         armor: 14,
         stamina: 10,
-        mainStat: "7 int<br>6 agi",
-        critical: 0,
-        haste: 0,
+        mainStat: 6,
+        critical: 6,
+        haste: 7,
         mastery: 0,
-        versatility: 6
+        versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=17941|Mennu the Betrayer@The Slave Pens',
-      rarity: 1
+      source: 'https://www.wowhead.com/npc=18096|Epoch Hunter@Old Hilsbrad Foothills',
+      rarity: 2
     }]
   }, {
     name: 'Wrist',
     items: [{
-      name: 'Raoul\'s Barrelhook Bracers',
-      wowheadURL: 'https://www.wowhead.com/item=159356?ilvl=25',
+      name: 'Bone Horror\'s Armsplints',
+      wowheadURL: 'https://www.wowhead.com/item=161101?ilvl=25',
       stats: {
         sockets: '1 (proc)',
         armor: 7,
         stamina: 5,
         mainStat: 4,
-        critical: 0,
-        haste: 4,
+        critical: 3,
+        haste: 0,
         mastery: 0,
-        versatility: 3
+        versatility: 4
       },
-      source: 'https://www.wowhead.com/npc=129431|Captain Eudora@Freehold',
-      rarity: 2
+      source: 'https://www.wowhead.com/npc=128578|Zujothgul@Nazmir',
+      rarity: 1,
+      note: 'One time drop.'
     }, {
       name: 'Wristlinks of Alchemical Transfusion',
       wowheadURL: 'https://www.wowhead.com/item=158309?ilvl=25',
@@ -7512,39 +7575,39 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=122967|Priestess Alun\'za@Atal\'Dazar',
       rarity: 2
     }, {
-      name: 'Bone Horror\'s Armsplints',
-      wowheadURL: 'https://www.wowhead.com/item=161101?ilvl=25',
+      name: 'Raoul\'s Barrelhook Bracers',
+      wowheadURL: 'https://www.wowhead.com/item=159356?ilvl=25',
       stats: {
         sockets: '1 (proc)',
         armor: 7,
         stamina: 5,
         mainStat: 4,
-        critical: 3,
-        haste: 0,
+        critical: 0,
+        haste: 4,
         mastery: 0,
-        versatility: 4
+        versatility: 3
       },
-      source: 'https://www.wowhead.com/npc=128578|Zujothgul@Nazmir',
-      rarity: 1,
-      note: 'One time drop.'
+      source: 'https://www.wowhead.com/npc=129431|Captain Eudora@Freehold',
+      rarity: 2
     }]
   }, {
     name: 'Hands',
     items: [{
-      name: 'Gauntlets of Desolation',
-      wowheadURL: 'https://www.wowhead.com/item=27528?ilvl=25',
+      name: 'Abyssal Scale Gauntlets',
+      wowheadURL: 'https://www.wowhead.com/item=161098?ilvl=25',
       stats: {
-        sockets: 2,
-        armor: 9,
-        stamina: 7,
+        sockets: '1 (proc)',
+        armor: 8,
+        stamina: 8,
         mainStat: 5,
-        critical: 5,
-        haste: 5,
-        mastery: 0,
-        versatility: 0
+        critical: 0,
+        haste: 0,
+        mastery: 5,
+        versatility: 5
       },
-      source: 'https://www.wowhead.com/npc=16808|Warchief Kargath Bladefist@The Shattered Halls',
-      rarity: 1
+      source: 'https://www.wowhead.com/npc=128584|Vugthuth@Nazmir',
+      rarity: 1,
+      note: 'One time drop.'
     }, {
       name: 'Stormfront Gauntlets',
       wowheadURL: 'https://www.wowhead.com/item=27428?ilvl=25',
@@ -7561,21 +7624,20 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=17862|Captain Skarloc@Old Hilsbrad Foothills',
       rarity: 1
     }, {
-      name: 'Abyssal Scale Gauntlets',
-      wowheadURL: 'https://www.wowhead.com/item=161098?ilvl=25',
+      name: 'Gauntlets of Desolation',
+      wowheadURL: 'https://www.wowhead.com/item=27528?ilvl=25',
       stats: {
-        sockets: '1 (proc)',
-        armor: 8,
-        stamina: 8,
+        sockets: 2,
+        armor: 9,
+        stamina: 7,
         mainStat: 5,
-        critical: 0,
-        haste: 0,
-        mastery: 5,
-        versatility: 5
+        critical: 5,
+        haste: 5,
+        mastery: 0,
+        versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=128584|Vugthuth@Nazmir',
-      rarity: 1,
-      note: 'One time drop.'
+      source: 'https://www.wowhead.com/npc=16808|Warchief Kargath Bladefist@The Shattered Halls',
+      rarity: 1
     }]
   }, {
     name: 'Waist',
@@ -7594,6 +7656,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/quest=29599@Old Hilsbrad Foothills',
       rarity: 1
+    }, {
+      name: "Shokell's Grim Cinch",
+      wowheadURL: 'https://www.wowhead.com/item=141573?ilvl=28',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 9,
+        stamina: 8,
+        mainStat: 5,
+        critical: 0,
+        haste: 4,
+        mastery: 7,
+        versatility: 0
+      },
+      source: '[Legion BoE]',
+      rarity: 3,
+      note: 'Farmable at 20'
     }]
   }, {
     name: 'Legs',
@@ -7653,21 +7731,21 @@ var armor = [{
   slots: [{
     name: 'Head',
     items: [{
-      name: 'Davidian\'s All-Seeing Eyes',
-      wowheadURL: 'https://www.wowhead.com/item=87455?ilvl=28',
+      name: 'Circle\'s Stalwart Helmet',
+      wowheadURL: 'https://www.wowhead.com/item=27715?ilvl=24',
       stats: {
-        sockets: 'Meta + 1',
-        armor: 18,
-        stamina: 11,
-        mainStat: 8,
-        critical: 5,
-        haste: 6,
+        sockets: 3,
+        armor: 15,
+        stamina: 9,
+        mainStat: 7,
+        critical: 6,
+        haste: 0,
         mastery: 0,
         versatility: 0
       },
-      source: '[Pandaria BoE]',
-      rarity: 3,
-      note: 'Tooltip is wrong. Requires a lvl 22 character to farm. Best spot to farm is goats in Vallet of Four Winds.'
+      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
+      rarity: 1,
+      note: 'Good if proc purple.'
     }, {
       name: 'Hope Bearer Helm',
       wowheadURL: 'https://www.wowhead.com/item=27408?ilvl=25',
@@ -7683,6 +7761,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=18371|Shirrak the Dead Watcher@Auchenai Crypts',
       rarity: 1
+    }, {
+      name: 'Helmet of the Constructor',
+      wowheadURL: 'https://www.wowhead.com/item=37182?ilvl=25',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 16,
+        stamina: 10,
+        mainStat: 6,
+        critical: 8,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=24200|Skarvald the Constructor@Utgarde Keep',
+      rarity: 1,
+      note: 'A budget alternative to Davidian if you need a meta socket.'
     }, {
       name: 'Horned Viking Helmet',
       wowheadURL: 'https://www.wowhead.com/item=9394?ilvl=25',
@@ -7715,41 +7809,73 @@ var armor = [{
       rarity: 2,
       note: 'Requires 75 MoP engi to make. Requires 75 cata engi to place the sockets.<br /> <strong>Alliance:</strong> <a href="https://www.wowhead.com/npc=5519">Billibub Cogspinner</a> <strong>Horde:</strong> <a href="https://www.wowhead.com/npc=3413">Sovik</a>'
     }, {
-      name: 'Helmet of the Constructor',
-      wowheadURL: 'https://www.wowhead.com/item=37182?ilvl=25',
+      name: 'Davidian\'s All-Seeing Eyes',
+      wowheadURL: 'https://www.wowhead.com/item=87455?ilvl=28',
       stats: {
         sockets: 'Meta + 1',
-        armor: 16,
-        stamina: 10,
-        mainStat: 6,
-        critical: 8,
-        haste: 0,
+        armor: 18,
+        stamina: 11,
+        mainStat: 8,
+        critical: 5,
+        haste: 6,
         mastery: 0,
         versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=24200|Skarvald the Constructor@Utgarde Keep',
-      rarity: 1,
-      note: 'A budget alternative to Davidian if you need a meta socket.'
+      source: '[Pandaria BoE]',
+      rarity: 3,
+      note: 'Tooltip is wrong. Requires a lvl 22 character to farm. Best spot to farm is goats in Vallet of Four Winds.'
     }, {
-      name: 'Circle\'s Stalwart Helmet',
-      wowheadURL: 'https://www.wowhead.com/item=27715?ilvl=24',
+      name: 'Light-Sealed Casque',
+      wowheadURL: 'https://www.wowhead.com/item=87454?ilvl=28',
       stats: {
-        sockets: 3,
-        armor: 15,
-        stamina: 9,
-        mainStat: 7,
+        sockets: 'Meta + 1',
+        armor: 18,
+        stamina: 11,
+        mainStat: 8,
+        critical: 0,
+        haste: 5,
+        mastery: 6,
+        versatility: 0
+      },
+      source: '[Pandaria BoE]',
+      rarity: 3,
+      note: 'ilvl 28 requires a lvl 22 farmer, ilvl 26 - a lvl 22 one'
+    }, {
+      name: "Endwyn's Toothy Visage",
+      wowheadURL: 'https://www.wowhead.com/item=87453?ilvl=28',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 18,
+        stamina: 13,
+        mainStat: 5,
         critical: 6,
-        haste: 0,
+        haste: 4,
         mastery: 0,
         versatility: 0
       },
-      source: 'https://www.wowhead.com/quest=10096@Zangarmarsh',
-      rarity: 1,
-      note: 'Good if proc purple.'
+      source: '[Pandaria BoE]',
+      rarity: 3,
+      note: 'ilvl 28 requires a lvl 22 farmer, ilvl 26 - a lvl 22 one'
     }]
   }, {
     name: 'Shoulders',
     items: [{
+      name: 'Shoulderplates of the Vigilant',
+      wowheadURL: 'https://www.wowhead.com/item=119383?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 15,
+        stamina: 5,
+        mainStat: 7,
+        critical: 5,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/npc=88436|Vigilant Paarthos@Talador',
+      rarity: 2,
+      note: 'Farmable daily.'
+    }, {
       name: 'Truth Bearer Shoulderguards',
       wowheadURL: 'https://www.wowhead.com/item=24457?ilvl=25',
       stats: {
@@ -7784,21 +7910,6 @@ var armor = [{
   }, {
     name: 'Chest',
     items: [{
-      name: 'Breastplate of Righteous Fury',
-      wowheadURL: 'https://www.wowhead.com/item=28337?ilvl=25',
-      stats: {
-        sockets: 3,
-        armor: 22,
-        stamina: 10,
-        mainStat: 6,
-        critical: 8,
-        haste: 0,
-        mastery: 0,
-        versatility: 1
-      },
-      source: 'https://www.wowhead.com/npc=17942|Quagmirran@The Slave Pens',
-      rarity: 1
-    }, {
       name: 'The Exarch\'s Protector',
       wowheadURL: 'https://www.wowhead.com/item=29337?ilvl=25',
       stats: {
@@ -7813,24 +7924,40 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/quest=29596@Auchenai Crypts',
       rarity: 1
+    }, {
+      name: 'Breastplate of Righteous Fury',
+      wowheadURL: 'https://www.wowhead.com/item=28337?ilvl=25',
+      stats: {
+        sockets: 3,
+        armor: 22,
+        stamina: 10,
+        mainStat: 6,
+        critical: 8,
+        haste: 0,
+        mastery: 0,
+        versatility: 1
+      },
+      source: 'https://www.wowhead.com/npc=17942|Quagmirran@The Slave Pens',
+      rarity: 1
     }]
   }, {
     name: 'Wrist',
     items: [{
-      name: 'Bands of Fading Light',
-      wowheadURL: 'https://www.wowhead.com/item=37590?ilvl=25',
+      name: 'Vicemaul Wristpinchers',
+      wowheadURL: 'https://www.wowhead.com/item=160474?ilvl=25',
       stats: {
-        sockets: 1,
+        sockets: '1 (proc)',
         armor: 11,
         stamina: 5,
-        mainStat: 3,
+        mainStat: 4,
         critical: 0,
         haste: 5,
         mastery: 0,
-        versatility: 0
+        versatility: 3
       },
-      source: '[Utgarde Pinnacle BoE]',
-      rarity: 2
+      source: 'https://www.wowhead.com/npc=127651|Vicemaul@Drustvar',
+      rarity: 1,
+      note: 'One time drop.'
     }, {
       name: 'Concealed Fencing Plates',
       wowheadURL: 'https://www.wowhead.com/item=158311?ilvl=25',
@@ -7847,25 +7974,56 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=129431|Captain Eudora@Freehold',
       rarity: 2
     }, {
-      name: 'Vicemaul Wristpinchers',
-      wowheadURL: 'https://www.wowhead.com/item=160474?ilvl=25',
+      name: 'Bands of Fading Light',
+      wowheadURL: 'https://www.wowhead.com/item=37590?ilvl=25',
       stats: {
-        sockets: '1 (proc)',
+        sockets: 1,
         armor: 11,
         stamina: 5,
-        mainStat: 4,
+        mainStat: 3,
         critical: 0,
         haste: 5,
         mastery: 0,
-        versatility: 3
+        versatility: 0
       },
-      source: 'https://www.wowhead.com/npc=127651|Vicemaul@Drustvar',
-      rarity: 1,
-      note: 'One time drop.'
+      source: '[Utgarde Pinnacle BoE]',
+      rarity: 2
     }]
   }, {
     name: 'Hands',
     items: [{
+      name: 'Marshqueen\'s Crushers',
+      wowheadURL: 'https://www.wowhead.com/item=161111?ilvl=25',
+      stats: {
+        sockets: '1 (proc)',
+        armor: 12,
+        stamina: 7,
+        mainStat: 5,
+        critical: 0,
+        haste: 4,
+        mastery: 0,
+        versatility: 6
+      },
+      source: 'https://www.wowhead.com/npc=133539|Lo\'Kuno@Nazmir',
+      rarity: 1,
+      note: 'One time drop.'
+    }, {
+      name: 'Doomplate Gauntlets',
+      wowheadURL: 'https://www.wowhead.com/item=27497?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 12,
+        stamina: 7,
+        mainStat: 5,
+        critical: 1,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=17377|Keli\'dan the Breaker@The Blood Furnace',
+      rarity: 1,
+      note: 'Only good with the socket bonus. Use with shoulders.'
+    }, {
       name: 'Ironblade Gauntlets',
       wowheadURL: 'https://www.wowhead.com/item=24387?ilvl=25',
       stats: {
@@ -7925,42 +8083,26 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=18344|Nexus-Prince Shaffar@Mana-Tombs',
       rarity: 1
-    }, {
-      name: 'Doomplate Gauntlets',
-      wowheadURL: 'https://www.wowhead.com/item=27497?ilvl=25',
-      stats: {
-        sockets: 2,
-        armor: 12,
-        stamina: 7,
-        mainStat: 5,
-        critical: 1,
-        haste: 0,
-        mastery: 0,
-        versatility: 0
-      },
-      source: 'https://www.wowhead.com/npc=17377|Keli\'dan the Breaker@The Blood Furnace',
-      rarity: 1,
-      note: 'Only good with the socket bonus. Use with shoulders.'
-    }, {
-      name: 'Marshqueen\'s Crushers',
-      wowheadURL: 'https://www.wowhead.com/item=161111?ilvl=25',
+    }]
+  }, {
+    name: 'Waist',
+    items: [{
+      name: 'Barksnapper Girdle',
+      wowheadURL: 'https://www.wowhead.com/item=160475?ilvl=25',
       stats: {
         sockets: '1 (proc)',
         armor: 12,
         stamina: 7,
         mainStat: 5,
-        critical: 0,
-        haste: 4,
+        critical: 3,
+        haste: 0,
         mastery: 0,
-        versatility: 6
+        versatility: 7
       },
-      source: 'https://www.wowhead.com/npc=133539|Lo\'Kuno@Nazmir',
+      source: 'https://www.wowhead.com/npc=130143|Balethorn@Drustvar',
       rarity: 1,
       note: 'One time drop.'
-    }]
-  }, {
-    name: 'Waist',
-    items: [{
+    }, {
       name: 'Studded Girdle of Virtue',
       wowheadURL: 'https://www.wowhead.com/item=24458?ilvl=25',
       stats: {
@@ -7990,22 +8132,6 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=18473|Talon King Ikiss@Sethekk Halls',
       rarity: 1
-    }, {
-      name: 'Barksnapper Girdle',
-      wowheadURL: 'https://www.wowhead.com/item=160475?ilvl=25',
-      stats: {
-        sockets: '1 (proc)',
-        armor: 12,
-        stamina: 7,
-        mainStat: 5,
-        critical: 3,
-        haste: 0,
-        mastery: 0,
-        versatility: 7
-      },
-      source: 'https://www.wowhead.com/npc=130143|Balethorn@Drustvar',
-      rarity: 1,
-      note: 'One time drop.'
     }]
   }, {
     name: 'Legs',
@@ -8218,6 +8344,21 @@ var armor = [{
         versatility: 7
       },
       source: 'https://www.wowhead.com/npc=12201|Princess Theradras@Maraudon',
+      rarity: 1
+    }, {
+      name: 'Hook Charm Necklace',
+      wowheadURL: 'https://www.wowhead.com/item=151437?ilvl=25',
+      stats: {
+        sockets: 0,
+        armor: 0,
+        stamina: 5,
+        mainStat: 0,
+        critical: 0,
+        haste: 15,
+        mastery: 0,
+        versatility: 8
+      },
+      source: 'https://www.wowhead.com/npc=74505|Thruk@Blackfathom Deeps',
       rarity: 1
     }, {
       name: 'Tempest Talisman',
@@ -9052,6 +9193,11 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=152634?ilvl=19',
     note: '6 vers + heal on kill',
     source: "https://www.wowhead.com/spell=252362"
+  }, {
+    name: "Empowered Shark's Tooth",
+    wowheadURL: 'https://www.wowhead.com/item=159765?ilvl=24',
+    note: '6 main stat + crit proc',
+    source: "https://www.wowhead.com/quest=48026@Zul'Dazar"
   }]
 }, {
   name: 'On use',
@@ -9080,6 +9226,21 @@ var trinkets = [{
     wowheadURL: 'https://www.wowhead.com/item=140161?ilvl=27',
     note: 'Bladestorm <span class="q6">(WARRIOR ONLY)</span>',
     source: 'https://www.wowhead.com/item=141069'
+  }, {
+    name: "Shivermaw's Jawbone",
+    wowheadURL: 'https://www.wowhead.com/item=137440?ilvl=25',
+    note: '9 Stamina + AoE slow on-use',
+    source: 'https://www.wowhead.com/npc=101951|Shivermaw@Violet Hold'
+  }, {
+    name: 'Brooch of Munificent Deeds',
+    wowheadURL: 'https://www.wowhead.com/item=87500?ilvl=28',
+    note: '10 Stamina + Max health on-use',
+    source: '[Pandaria BoE]'
+  }, {
+    name: 'Argussian Compass',
+    wowheadURL: 'https://www.wowhead.com/item=27770?ilvl=25',
+    note: '7 Stamina + Shield on-use',
+    source: 'https://www.wowhead.com/npc=17882|The Black Stalker@The Underbog'
   }]
 }, {
   name: 'Other',
