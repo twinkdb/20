@@ -10013,7 +10013,8 @@ var StatsCalculatorElement = function () {
     key: "changeSelectIcon",
     value: function changeSelectIcon() {
       var iconPath = this.specSelectIcon.style.backgroundImage;
-      var iconName = iconPath.split('/').at(-1).split('.png')[0];
+      var iconPathSplit = iconPath.split('/');
+      var iconName = iconPathSplit.slice(-1)[0].split('.png')[0];
       this.specSelectIcon.style.backgroundImage = iconPath.replace(iconName, "class-".concat(this.charClass, "-").concat(this.charSpec));
     }
   }, {
