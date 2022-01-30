@@ -878,10 +878,86 @@ blockquote:last-child {
 /* ------------------------------------------------------------ *\
 	Fields
 \* ------------------------------------------------------------ */
+.field {
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+  padding: 10px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: solid 1px #242424;
+  background-color: #484848;
+}
+.field:focus {
+  border: solid 1px #C69B6D;
+}
+.select .field {
+  padding-right: 30px;
+}
+.select {
+  position: relative;
+}
+.select::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  -webkit-transform: translateY(-65%) rotate(45deg);
+      -ms-transform: translateY(-65%) rotate(45deg);
+          transform: translateY(-65%) rotate(45deg);
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  position: absolute;
+  top: 50%;
+  right: 13px;
+}
 /*  Field textarea  */
 /* ------------------------------------------------------------ *\
 	Footer
 \* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ *\
+  form-calculator
+\* ------------------------------------------------------------ */
+.form-calculator label {
+  max-width: 60%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  line-height: 1;
+  text-align: right;
+  padding-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.form-calculator select {
+  padding-left: 32px;
+}
+.form-calculator .select span {
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-size: contain;
+}
+.form-calculator .form__controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form-calculator .form__row + .form__row {
+  margin-top: 10px;
+}
 /* ------------------------------------------------------------ *\
   go-back
 \* ------------------------------------------------------------ */
@@ -1354,6 +1430,39 @@ body .floatingchat-container-wrap-mobi iframe {
           transform-origin: center;
   display: inline-block;
   margin-left: 5px;
+}
+/* ------------------------------------------------------------ *\
+  stats-calculator
+\* ------------------------------------------------------------ */
+.stats-calculator {
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto 20px;
+  padding: 10px 0;
+  border: solid 1px #C69B6D;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.stats-calculator h3 {
+  padding: 4px 0 5px;
+}
+.stats-calculator .stats-calculator__inputs {
+  max-width: 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding: 0 10px;
+}
+.stats-calculator .stats-calculator__results {
+  max-width: 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  border-left: solid 1px #484848;
+  padding: 0 10px;
 }
 /* ------------------------------------------------------------ *\
   table

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>TwinkDB</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/css/bundle.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+
+	<!-- wowhead tooltips -->
+	<script>const whTooltips = {colorLinks: true, iconizeLinks: true, iconSize: 'medium', renameLinks: true};</script>
+	<script src="https://wow.zamimg.com/widgets/power.js"></script>
+	<!-- end wowhead tooltips -->
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <!-- Your header goes here -->
+<div class="header">
+  <div class="header__inner">
+    <a href="/20/home.html" class="logo">TWINKDB</a><!-- /.logo -->
+
+    <div class="nav js-nav">
+      <ul class="no-dropdown">
+        <li>
+          <a href="/20/weapons.html">Weapons</a>
+        </li>
+
+        <li>
+          <a href="/20/armor.html">Armor</a>
+        </li>
+
+        <li>
+          <a href="/20/trinkets.html">Trinkets</a>
+        </li>
+
+        <li>
+          <a href="/20/builds.html">Builds</a>
+        </li>
+
+        <!-- <li>
+          <a href="/consumables.html">Consumables</a>
+        </li>
+
+        <li>
+          <a href="/gems.html">Gems</a>
+        </li>
+
+        <li>
+          <a href="/enchants.html">Enchants</a>
+        </li> -->
+      </ul>
+
+      <div class="nav__close js-nav-trigger visible-sm-block visible-xs-block"></div><!-- /.nav__close visible-sm-block visible-xs-block -->
+    </div><!-- /.nav -->
+
+    <div class="nav__open js-nav-trigger visible-sm-block visible-xs-block">
+      <svg viewBox="0 0 30 22" width="30" height="15" fill="#fff">
+        <rect width="30" height="2" rx="3"></rect>
+        <rect y="8" width="30" height="2" rx="3"></rect>
+        <rect y="16" width="30" height="2" rx="3"></rect>
+      </svg>
+    </div><!-- /.nav__open visible-sm-block visible-xs-block -->
+  </div><!-- /.header__inner -->
+</div><!-- /.header -->
+
+
+    <main class="main">
+      <div class="container always-visible">
+        <div class="title-with-image">
+          <img src="./assets/images/temp/calculator.png" alt="Calculator">
+
+          <h1>Stats Calculator</h1>
+        </div><!-- /.title-with-image -->
+
+        <hr>
+
+        <div class="stats-calculator js-stats-calculator">
+          <div class="stats-calculator__inputs">
+            <div class="form-calculator">
+              <form action="POST">
+                <div class="form__row">
+                  <div class="select js-spec-select">
+                    <span class="js-spec-select-icon" style="background-image: url(./assets/images/temp/question.png);"></span>
+
+                    <select name="class-spec" id="class-spec" class="field">
+                      <option value="" disabled="" selected="">Select spec</option>
+                      <optgroup label="Death Knight">
+                        <option value="deathknight-blood">Blood</option>
+                        <option value="deathknight-frost">Frost</option>
+                        <option value="deathknight-unholy">Unholy</option>
+                      </optgroup>
+
+                      <optgroup label="Demon Hunter">
+                        <option value="demonhunter-havoc">Havoc</option>
+                        <option value="demonhunter-vengeance">Vengeance</option>
+                      </optgroup>
+
+                      <optgroup label="Druid">
+                        <option value="druid-balance">Balance</option>
+                        <option value="druid-feral">Feral</option>
+                        <option value="druid-guardian">Guardian</option>
+                        <option value="druid-restoration">Restoration</option>
+                      </optgroup>
+
+                      <optgroup label="Hunter">
+                        <option value="hunter-marksmanship">Marksmanship</option>
+                        <option value="hunter-beastmastery">Beast Mastery</option>
+                        <option value="hunter-survival">Survival</option>
+                      </optgroup>
+
+                      <optgroup label="Mage">
+                        <option value="mage-arcane">Arcane</option>
+                        <option value="mage-fire">Fire</option>
+                        <option value="mage-frost">Frost</option>
+                      </optgroup>
+
+                      <optgroup label="Monk">
+                        <option value="monk-windwalker">Windwalker</option>
+                        <option value="monk-mistweaver">Mistweaver</option>
+                        <option value="monk-brewmaster">Brewmaster</option>
+                      </optgroup>
+
+                      <optgroup label="Paladin">
+                        <option value="paladin-retribution">Retribution</option>
+                        <option value="paladin-holy">Holy</option>
+                        <option value="paladin-protection">Protection</option>
+                      </optgroup>
+
+                      <optgroup label="Priest">
+                        <option value="priest-holy">Holy</option>
+                        <option value="priest-discipline">Discipline</option>
+                        <option value="priest-shadow">Shadow</option>
+                      </optgroup>
+
+                      <optgroup label="Rogue">
+                        <option value="rogue-assassination">Assassination</option>
+                        <option value="rogue-subtlety">Subtlety</option>
+                        <option value="rogue-outlaw">Outlaw</option>
+                      </optgroup>
+
+                      <optgroup label="Shaman">
+                        <option value="shaman-elemental">Elemental</option>
+                        <option value="shaman-enhancement">Enhancement</option>
+                        <option value="shaman-restoration">Restoration</option>
+                      </optgroup>
+
+                      <optgroup label="Warlock">
+                        <option value="warlock-affliction">Affliction</option>
+                        <option value="warlock-destruction">Destruction</option>
+                        <option value="warlock-demonology">Demonology</option>
+                      </optgroup>
+
+                      <optgroup label="Warrior">
+                        <option value="warrior-protection">Protection</option>
+                        <option value="warrior-arms">Arms</option>
+                        <option value="warrior-fury">Fury</option>
+                      </optgroup>
+                    </select><!-- /.field -->
+                  </div><!-- /.select -->
+                </div><!-- /.form__row -->
+
+                <div class="form__row">
+                  <div class="form__controls">
+                    <label for="critical">Critical:</label>
+
+                    <input type="number" name="critical" id="critical" class="field" value="0" disabled="">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__row -->
+
+                <div class="form__row">
+                  <div class="form__controls">
+                    <label for="haste">Haste:</label>
+
+                    <input type="number" name="haste" id="haste" class="field" value="0" disabled="">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__row -->
+
+                <div class="form__row">
+                  <div class="form__controls">
+                    <label for="versatility">Versatility:</label>
+
+                    <input type="number" name="versatility" id="versatility" class="field" value="0" disabled="">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__row -->
+
+                <div class="form__row">
+                  <div class="form__controls">
+                    <label for="mastery">Mastery:</label>
+
+                    <input type="number" name="mastery" id="mastery" class="field" value="0" disabled="">
+                  </div><!-- /.form__controls -->
+                </div><!-- /.form__row -->
+              </form>
+            </div><!-- /.stats-calculator__form -->
+          </div><!-- /.stats-calculator__inputs -->
+
+          <div class="stats-calculator__results">
+            <div class="form-calculator">
+              <div class="form__row">
+                <div class="form__controls">
+                  <label for="level">Level:</label>
+
+                  <input type="number" id="level" value="20" class="field">
+                </div><!-- /.form__controls -->
+              </div><!-- /.form__row -->
+
+              <div class="form__row">
+                <input type="text" id="critical-result" value="0" class="field" disabled="">
+              </div><!-- /.form__row -->
+
+              <div class="form__row">
+                <input type="text" id="haste-result" value="0" class="field" disabled="">
+              </div><!-- /.form__row -->
+
+              <div class="form__row">
+                <input type="text" id="versatility-result" value="0" class="field" disabled="">
+              </div><!-- /.form__row -->
+
+              <div class="form__row">
+                <input type="text" id="mastery-result" value="0" class="field" disabled="">
+              </div><!-- /.form__row -->
+            </div><!-- /.form-calculator -->
+
+          </div><!-- /.stats-calculator__results -->
+        </div><!-- /.stats-calculator -->
+
+        <p style="text-align: center;">
+          <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTvT2yKMI9I5VZxcSsZxoeM4JtdhHkGP64iU2L2TACktSsTL7ZHdOcJfgfgCr8f4psp-NTBR7ZYOCYW/pubhtml#">Base stats for different races.</a>
+        </p>
+      </div><!-- /.container always-visible -->
+    </main><!-- /.main -->
+  </div><!-- /.wrapper -->
+
+  <script src="assets/vendor/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bundle.js"></script>
+
+<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+<script>
+  kofiWidgetOverlay.draw('twinkdb', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support TwinkDB',
+    'floating-chat.donateButton.background-color': '#fcbf47',
+    'floating-chat.donateButton.text-color': '#323842'
+  });
+</script>
+
+</body>
+</html>
