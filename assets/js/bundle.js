@@ -5333,22 +5333,6 @@ var weapons = [{
     },
     source: '[Classic BoE]',
     rarity: 3
-  }, {
-    name: "Ritter's Rat Render",
-    wowheadURL: 'https://www.wowhead.com/item=87420&ilvl=28',
-    stats: {
-      sockets: 0,
-      damage: '13 - 25 (5.3 DPS)',
-      stamina: 11,
-      mainStat: 7,
-      critical: 7,
-      haste: 7,
-      mastery: 0,
-      versatility: 0
-    },
-    source: '[Pandaria BoE]',
-    rarity: 3,
-    note: 'Super rare.'
   }]
 }, {
   name: '1H melee',
@@ -5821,22 +5805,6 @@ var weapons = [{
     },
     source: '[Classic BoE]',
     rarity: 3
-  }, {
-    name: "Penate's Penance-Procuring Pistol",
-    wowheadURL: 'https://www.wowhead.com/item=87477&ilvl=28',
-    stats: {
-      sockets: 0,
-      damage: '11 - 20 (5.2 DPS)',
-      stamina: 11,
-      mainStat: 7,
-      critical: 0,
-      haste: 6,
-      mastery: 8,
-      versatility: 0
-    },
-    source: '[Pandaria BoE]',
-    rarity: 3,
-    note: "Farmable on lvl 21-22 for ilvl 28. Level 20 drops ilvl 26."
   }, {
     name: 'Precisely Calibrated Boomstick',
     wowheadURL: 'https://www.wowhead.com/item=2100&ilvl=27',
@@ -6984,6 +6952,36 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=18371|Shirrak the Dead Watcher@Auchenai Crypts',
       rarity: 1
     }, {
+      name: 'Wastewalker Helm',
+      wowheadURL: 'https://www.wowhead.com/item=28224/wastewalker-helm?bonus=6710&ilvl=25',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 7,
+        stamina: 10,
+        mainStat: 7,
+        critical: 6,
+        haste: 5,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=18096|Epoch Hunter@Old Hilsbrad Foothills',
+      rarity: 2
+    }, {
+      name: 'Moonglade Cowl',
+      wowheadURL: 'https://www.wowhead.com/item=28348/moonglade-cowl?ilvl=25',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 7,
+        stamina: 10,
+        mainStat: 6,
+        critical: 0,
+        haste: 4,
+        mastery: 0,
+        versatility: 8
+      },
+      source: 'https://www.wowhead.com/npc=17975|High Botanist Freywinn@The Botanica',
+      rarity: 2
+    }, {
       name: 'Agile Retinal Armor',
       wowheadURL: 'https://www.wowhead.com/item=77534?ilvl=19',
       stats: {
@@ -7194,6 +7192,22 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=17942|Quagmirran@The Slave Pens',
       rarity: 1
+    }, {
+      name: 'Wastewalker Gloves',
+      wowheadURL: 'https://www.wowhead.com/item=27531/wastewalker-gloves?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 6,
+        stamina: 7,
+        mainStat: 5,
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=16808|Warchief Kargath Bladefist@The Shattered Halls',
+      rarity: 2,
+      note: 'Only good for the 2-piece set bonus.'
     }]
   }, {
     name: 'Waist',
@@ -7379,6 +7393,21 @@ var armor = [{
       source: 'https://www.wowhead.com/npc=18373|Exarch Maladaar@Auchenai Crypts',
       rarity: 1
     }, {
+      name: "Plunderer's Helmet",
+      wowheadURL: 'https://www.wowhead.com/item=37188/plunderers-helmet?ilvl=25',
+      stats: {
+        sockets: 'Meta + 1',
+        armor: 11,
+        stamina: 12,
+        mainStat: 6,
+        critical: 4,
+        haste: 7,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=23954|Ingvar the Plunderer@Utgarde Keep',
+      rarity: 1
+    }, {
       name: "Corrupted Keeper's Band",
       wowheadURL: 'https://www.wowhead.com/item=132561?ilvl=25',
       stats: {
@@ -7492,6 +7521,21 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/npc=17942|Quagmirran@The Slave Pens',
       rarity: 1
+    }, {
+      name: 'Tidefury Shoulderguards',
+      wowheadURL: 'https://www.wowhead.com/item=27802/tidefury-shoulderguards?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 10,
+        stamina: 7,
+        mainStat: '6 int<br>5 agi',
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 5
+      },
+      source: 'https://www.wowhead.com/npc=16809|Warbringer Omrogg@The Shattered Halls',
+      rarity: 2
     }]
   }, {
     name: 'Chest',
@@ -7656,6 +7700,37 @@ var armor = [{
       },
       source: 'https://www.wowhead.com/quest=29599@Old Hilsbrad Foothills',
       rarity: 1
+    }, {
+      name: 'Girdle of Living Flame',
+      wowheadURL: 'https://www.wowhead.com/item=27743/girdle-of-living-flame?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 8,
+        stamina: 7,
+        mainStat: 5,
+        critical: 6,
+        haste: 0,
+        mastery: 0,
+        versatility: 0
+      },
+      source: 'https://www.wowhead.com/npc=17770|Hungarfen@The Underbog',
+      rarity: 1
+    }, {
+      name: 'Girdle of the Gale Storm',
+      wowheadURL: 'https://www.wowhead.com/item=24388/girdle-of-the-gale-storm?ilvl=25',
+      stats: {
+        sockets: 2,
+        armor: 8,
+        stamina: 7,
+        mainStat: '6 int<br>5 agi',
+        critical: 0,
+        haste: 0,
+        mastery: 0,
+        versatility: 6
+      },
+      source: 'https://www.wowhead.com/npc=17381|The Maker@The Blood Furnace',
+      rarity: 1,
+      note: 'This is <em>good enough</em> when you accidentally lose your Tarren Mill Defender\'s Cinch'
     }, {
       name: "Shokell's Grim Cinch",
       wowheadURL: 'https://www.wowhead.com/item=141573?ilvl=28',
@@ -9410,6 +9485,7 @@ var Builds = function () {
   function Builds() {
     _classCallCheck(this, Builds);
 
+    this.API_ENDPOINT = 'https://api.npoint.io/b6ac2df4d3c005df984d';
     this.wrapper = document.querySelector('.js-builds');
     this.json = undefined;
     this.layout = {
@@ -9438,7 +9514,7 @@ var Builds = function () {
     value: function setJSON() {
       var _this = this;
 
-      fetch('https://api.npoint.io/11c628dda60c2670812b').then(function (result) {
+      fetch(this.API_ENDPOINT).then(function (result) {
         return result.json();
       }).then(function (data) {
         _this.json = data;
