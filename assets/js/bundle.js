@@ -9865,10 +9865,15 @@ var StatsCalculator = function () {
     this.bracketSizes = [30, 9, 8, 7, 12, 60];
     this.percentToFlatRatios = [1, 1.1, 1.2, 1.3, 1.4, 1.5, 0];
     this.flatToPercentRatios = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0];
+    this.bracketSizesSpeed = [10, 4.16666666, 3.57142858, 999999];
+    this.percentToFlatRatiosSpeed = [1, 1.2, 1.4, 1.6];
+    this.flatToPercentRatiosSpeed = [1, 0.8, 0.6, 0.4];
     this.criticalTable = [0, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.8399984, 2.975236419, 3.110474438, 3.245712457, 3.380950476, 3.516188495, 3.651426514, 3.786664533, 3.921902552, 4.057140571, 4.19237859, 4.327616609, 4.462854628, 4.598092647, 4.737322892, 4.88209548, 5.032659304, 5.189275662, 5.352218918, 5.521777213, 5.698253213, 5.881964896, 6.073246395, 6.272448877, 6.479941485, 6.696112333, 6.921369552, 7.156142407, 7.400882478, 7.676707786, 7.962812896, 8.259580927, 8.567409279, 8.886710161, 9.217911147, 9.561455743, 9.917803988, 10.28743306, 10.67083793, 11.78114906, 13.00698914, 14.36037908, 15.85459057, 17.50427622, 19.32561328, 21.33646224, 23.55654201, 26.00762324, 35.00000009];
     this.hasteTable = [0, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.550202644, 2.677712777, 2.805222909, 2.932733041, 3.060243173, 3.187753306, 3.315263438, 3.44277357, 3.570283702, 3.697793835, 3.825303967, 3.952814099, 4.080324231, 4.207834363, 4.335344496, 4.466618727, 4.603118595, 4.745078773, 4.892745624, 5.046377837, 5.206247087, 5.372638744, 5.545852617, 5.726203744, 5.914023226, 6.109659115, 6.313477343, 6.525862721, 6.747219984, 6.977974908, 7.23803877, 7.507795016, 7.787604874, 8.077843034, 8.378898152, 8.691173367, 9.015086844, 9.351072331, 9.699579745, 10.06107577, 11.10794054, 12.26373262, 13.53978599, 14.94861396, 16.50403187, 18.22129252, 20.11723583, 22.21045389, 24.52147334, 33.00000009];
     this.versatilityTable = [0, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.091154721, 3.245712457, 3.400270193, 3.554827929, 3.709385665, 3.863943401, 4.018501137, 4.173058873, 4.327616609, 4.482174345, 4.636732081, 4.791289817, 4.945847553, 5.100405289, 5.254963025, 5.414083305, 5.579537691, 5.751610634, 5.930600757, 6.11682162, 6.310602529, 6.512289386, 6.722245596, 6.940853023, 7.168513002, 7.405647412, 7.65269981, 7.910136631, 8.178448466, 8.458151403, 8.773380327, 9.100357595, 9.439521059, 9.79132489, 10.15624018, 10.5347556, 10.92737799, 11.33463313, 11.75706636, 12.19524335, 13.46417035, 14.86513044, 16.4118618, 18.11953208, 20.00488711, 22.08641518, 24.38452828, 26.92176229, 29.72299799, 40.0000001];
     this.masteryTable = [0, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.704760381, 2.8399984, 2.975236419, 3.110474438, 3.245712457, 3.380950476, 3.516188495, 3.651426514, 3.786664533, 3.921902552, 4.057140571, 4.19237859, 4.327616609, 4.462854628, 4.598092647, 4.737322892, 4.88209548, 5.032659304, 5.189275662, 5.352218918, 5.521777213, 5.698253213, 5.881964896, 6.073246395, 6.272448877, 6.479941485, 6.696112333, 6.921369552, 7.156142407, 7.400882478, 7.676707786, 7.962812896, 8.259580927, 8.567409279, 8.886710161, 9.217911147, 9.561455743, 9.917803988, 10.28743306, 10.67083793, 11.78114906, 13.00698914, 14.36037908, 15.85459057, 17.50427622, 19.32561328, 21.33646224, 23.55654201, 26.00762324, 35.00000009];
+    this.leechTable = [];
+    this.speedTable = [0, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.77278868, 0.811428114, 0.850067548, 0.888706982, 0.927346416, 0.96598585, 1.004625284, 1.043264718, 1.081904152, 1.120543586, 1.15918302, 1.197822454, 1.236461888, 1.275101322, 1.313740756, 1.353520826, 1.394884423, 1.437902658, 1.482650189, 1.529205405, 1.577650632, 1.628072347, 1.680561399, 1.735213256, 1.79212825, 1.851411853, 1.913174952, 1.977534158, 2.044612116, 2.114537851, 2.193345082, 2.275089399, 2.359880265, 2.447831223, 2.539060046, 2.633688899, 2.731844498, 2.833658282, 2.939266589, 3.048810838, 3.366042588, 3.716282611, 4.102965451, 4.529883019, 5.001221777, 5.521603794, 6.096132069, 6.730440573, 7.430749497, 10.00000003];
     this.specsWithHigherBaseCrit = ['marksmanship', 'beastmastery', 'survival', 'enhancement', 'assassination', 'subtlety', 'outlaw', 'windwalker', 'brewmaster', 'feral', 'guardian', 'havoc', 'vengeance'];
     this.masteryRatios = {
       deathknight: {
@@ -9937,55 +9942,58 @@ var StatsCalculator = function () {
   _createClass(StatsCalculator, [{
     key: "getBracketCaps",
     value: function getBracketCaps(value) {
+      var speed = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
       var result = [];
 
-      for (var index = 0; index < this.bracketSizes.length; index++) {
-        var size = this.bracketSizes[index];
-        result.push(index === 0 ? size * value * this.percentToFlatRatios[index] : result[index - 1] + size * value * this.percentToFlatRatios[index]);
+      for (var index = 0; index < (speed ? this.bracketSizesSpeed.length : this.bracketSizes.length); index++) {
+        var size = speed ? this.bracketSizesSpeed[index] : this.bracketSizes[index];
+        result.push(index === 0 ? size * (Math.round((value + Number.EPSILON) * 100) / 100) * (speed ? this.percentToFlatRatiosSpeed[index] : this.percentToFlatRatios[index]) : result[index - 1] + size * (Math.round((value + Number.EPSILON) * 100) / 100) * (speed ? this.percentToFlatRatiosSpeed[index] : this.percentToFlatRatios[index]));
 
-        if (index + 1 === this.bracketSizes.length) {
+        if (index + 1 === (speed ? this.bracketSizesSpeed.length : this.bracketSizes.length)) {
           result.push(9999);
         }
       }
 
+      console.log(result);
       return result;
     }
   }, {
     key: "flatToPercent",
     value: function flatToPercent(rating, base, caps) {
+      var speed = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
       var result;
-      var dr = this.flatToPercentRatios;
+      var dr = speed ? this.flatToPercentRatiosSpeed : this.flatToPercentRatios;
 
       if (rating < 0) {
         return 0;
       }
 
       switch (true) {
-        case rating <= caps[0]:
+        case caps[0] && rating <= caps[0]:
           result = rating * base * dr[0];
           break;
 
-        case rating <= caps[1]:
+        case caps[1] && rating <= caps[1]:
           result = caps[0] * base * dr[0] + (rating - caps[0]) * base * dr[1];
           break;
 
-        case rating <= caps[2]:
+        case caps[2] && rating <= caps[2]:
           result = caps[0] * base * dr[0] + (caps[1] - caps[0]) * base * dr[1] + (rating - caps[1]) * base * dr[2];
           break;
 
-        case rating <= caps[3]:
+        case caps[3] && rating <= caps[3]:
           result = caps[0] * base * dr[0] + (caps[1] - caps[0]) * base * dr[1] + (caps[2] - caps[1]) * base * dr[2] + (rating - caps[2]) * base * dr[3];
           break;
 
-        case rating <= caps[4]:
+        case caps[4] && rating <= caps[4]:
           result = caps[0] * base * dr[0] + (caps[1] - caps[0]) * base * dr[1] + (caps[2] - caps[1]) * base * dr[2] + (caps[3] - caps[2]) * base * dr[3] + (rating - caps[3]) * base * dr[4];
           break;
 
-        case rating <= caps[5]:
+        case caps[5] && rating <= caps[5]:
           result = caps[0] * base * dr[0] + (caps[1] - caps[0]) * base * dr[1] + (caps[2] - caps[1]) * base * dr[2] + (caps[3] - caps[2]) * base * dr[3] + (caps[4] - caps[3]) * base * dr[4] + (rating - caps[4]) * base * dr[5];
           break;
 
-        case rating > caps[5]:
+        case caps[5] && rating > caps[5]:
           result = caps[0] * base * dr[0] + (caps[1] - caps[0]) * base * dr[1] + (caps[2] - caps[1]) * base * dr[2] + (caps[3] - caps[2]) * base * dr[3] + (caps[4] - caps[3]) * base * dr[4] + (caps[5] - caps[4]) * base * dr[5];
           break;
 
@@ -10017,6 +10025,11 @@ var StatsCalculator = function () {
       var specRatio = this.masteryRatios[characterClass][spec];
       var result = 8 * specRatio;
       return result += specRatio * this.flatToPercent(rating, 1 / this.masteryTable[level], this.getBracketCaps(this.masteryTable[level]));
+    }
+  }, {
+    key: "speed",
+    value: function speed(rating, level) {
+      return this.flatToPercent(rating, 1 / this.speedTable[level], this.getBracketCaps(this.speedTable[level], true), true);
     }
   }]);
 
@@ -10066,6 +10079,7 @@ var StatsCalculatorElement = function () {
     this.hasteInput = document.getElementById('haste');
     this.versatilityInput = document.getElementById('versatility');
     this.masteryInput = document.getElementById('mastery');
+    this.speedInput = document.getElementById('speed');
     this.statsCalculator = new _StatsCalculator__WEBPACK_IMPORTED_MODULE_0__["default"]();
     this.init();
   }
@@ -10079,6 +10093,7 @@ var StatsCalculatorElement = function () {
       this.hasteInput.addEventListener('input', this.setHaste.bind(this));
       this.versatilityInput.addEventListener('input', this.setVersatility.bind(this));
       this.masteryInput.addEventListener('input', this.setMastery.bind(this));
+      this.speedInput.addEventListener('input', this.setSpeed.bind(this));
     }
   }, {
     key: "onSpecSelectChange",
@@ -10104,6 +10119,7 @@ var StatsCalculatorElement = function () {
       this.setHaste();
       this.setMastery();
       this.setVersatility();
+      this.setSpeed();
     }
   }, {
     key: "changeSelectIcon",
@@ -10158,6 +10174,13 @@ var StatsCalculatorElement = function () {
     value: function setMastery() {
       var result = this.statsCalculator.mastery(this.masteryInput.value, this.levelSelect.value, this.charClass, this.charSpec);
       var resultContainer = document.getElementById('mastery-result');
+      resultContainer.value = "".concat(result.toFixed(2), "%");
+    }
+  }, {
+    key: "setSpeed",
+    value: function setSpeed() {
+      var result = this.statsCalculator.speed(this.speedInput.value, this.levelSelect.value);
+      var resultContainer = document.getElementById('speed-result');
       resultContainer.value = "".concat(result.toFixed(2), "%");
     }
   }]);
