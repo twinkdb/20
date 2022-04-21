@@ -1,3 +1,3 @@
-# What are you even doing here???
+# The URL has been updated.
 
-[Go away and never return](https://twinkdb.github.io/20/home.html)
+[New URL: https://twinkdb.github.io/](https://twinkdb.github.io/)
