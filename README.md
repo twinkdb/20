@@ -1,3 +1,3 @@
-# What are you even doing here???
+# This is old news!
 
-[Go away and never return](https://twinkdb.github.io/20/home.html)
+[New domain here!](https://twinkdb.github.io/)
